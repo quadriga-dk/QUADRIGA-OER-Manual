@@ -60,22 +60,22 @@ oder Sie nutzen die Markdown-Link-Syntax.
 - Direkte Einbettung:
 
     ```markdown
-    <https://quadriga-dk.github.io/Book_Template/>
+    <https://quadriga-dk.github.io/QUADRIGA-OER-Manual/>
     ```
 
     führt zu:
 
-    <https://quadriga-dk.github.io/Book_Template/>
+    <https://quadriga-dk.github.io/QUADRIGA-OER-Manual/>
 
 - Markdown-Link-Syntax:
 
     ```markdown
-    [Book_Template](https://quadriga-dk.github.io/Book_Template/)
+    [QUADRIGA-OER-Manual](https://quadriga-dk.github.io/QUADRIGA-OER-Manual/)
     ```
 
     führt zu:
 
-    [Book_Template](https://quadriga-dk.github.io/Book_Template/)
+    [QUADRIGA-OER-Manual](https://quadriga-dk.github.io/QUADRIGA-OER-Manual/)
 
 In QUADRIGA nutzen wir für Links zu externen Seiten eine etwas [andere
 Formatierung (in HTML-Syntax)](./link_in_neuem_tab.md).

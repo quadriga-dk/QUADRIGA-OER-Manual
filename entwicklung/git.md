@@ -35,9 +35,9 @@ Ein Git Repositorium auf einem Server wie Github oder lokal beinhaltet die gleic
 ### Clone
 Um an einem Repositorium mitzuarbeiten, muss zuerst eine Kopie des Repositoriums lokal abgelegt werden. Das tun Sie mit dem Befehl `git clone`:
 ```bash
-git clone https://github.com/quadriga-dk/Book_Template
+git clone https://github.com/quadriga-dk/QUADRIGA-OER-Manual
 ```
-Das Ergebnis dieses Befehls ist, dass ein Ordner `Book_Template` am aktuellen Ort im Dateisystem angelegt wird und in diesem eine vollständige Kopie des Repositoriums von Github abgelegt wird. Navigieren Sie ggf. vor ausführen des Befehls an eine andere Stelle im Dateisystem. Im Repositorium enthalten ist die gesamte Versionsgeschichte – d.h. alle Commits – sowie alle nötigen Informationen, um das lokale Repositorium nutzen zu können.
+Das Ergebnis dieses Befehls ist, dass ein Ordner `QUADRIGA-OER-Manual` am aktuellen Ort im Dateisystem angelegt wird und in diesem eine vollständige Kopie des Repositoriums von Github abgelegt wird. Navigieren Sie ggf. vor ausführen des Befehls an eine andere Stelle im Dateisystem. Im Repositorium enthalten ist die gesamte Versionsgeschichte – d.h. alle Commits – sowie alle nötigen Informationen, um das lokale Repositorium nutzen zu können.
 
 Wollen Sie Ihre eigene OER anlegen, dann nutzen Sie bspw. die Template-Funktion auf GitHub. Diese erstellt ein neues Repositorium mit den Inhalten des Templates jedoch ohne die Versionsgeschichte des Template-Repositoriums.
 
@@ -85,7 +85,7 @@ Mit einem Branch können Sie einen Commit (bzw. eine Reihe von Commits) benennen
 
 ```{admonition} Übung
 :class: tip
-1. Gehen Sie auf die <a href="https://github.com/quadriga-dk/Book_Template" class="external-link" target="_blank">Github-Seite des OER-Templates</a>.
+1. Gehen Sie auf die <a href="https://github.com/quadriga-dk/QUADRIGA-OER-Manual" class="external-link" target="_blank">Github-Seite des OER-Templates</a>.
 2. Stellen Sie sicher, dass Sie eingeloggt sind und wählen Sie dann *Fork > Create a new Fork*.
 3. Folgen Sie den Anweisungen um eine spezielle Kopie des Templates in Deinem Github-Account zu erstellen, die Fork genannt wird. Ein Fork ist verbunden mit dem sogenannten *Upstream* Repositorium und kann Änderungen aus diesem bei sich wieder Einpflegen und Vorschläge für Änderungen (sog. Pull Requests) anbieten.
 4. Nutzen Sie nun `git clone` um eine Kopie Ihres Forks auf Ihrer lokalen Festplatte zu erstellen.
