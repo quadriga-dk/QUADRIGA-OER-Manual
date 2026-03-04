@@ -120,14 +120,14 @@ Informiert Lernende über den voraussichtlichen Zeitaufwand für Abschnitte oder
     address = {Potsdam; Berlin},
     title = {Technologie},
     copyright = {CC-BY-SA 4.0},
-    url = {https://quadriga-dk.github.io/Book_Template/technologie/einführung.html},
+    url = {https://quadriga-dk.github.io/QUADRIGA-OER-Manual/technologie/einführung.html},
     language = {deu},
     booktitle = {{QUADRIGA} {OERs}: erstellen und gestalten mit {Jupyter Book}. {QUADRIGA} {Open} {Educational} {Ressources}: {Template}.},
     author = {Schnaitter, Hannes and Samoilova, Evgenia and Islam, Lamia},
     year = {2024},
 }
 ```
-Schnaitter, H., Samoilova, E. & Islam, L. (2024). Technologie In _QUADRIGA OERs: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational Resources: Template._ https://quadriga-dk.github.io/Book_Template/technologie/einführung.html
+Schnaitter, H., Samoilova, E. & Islam, L. (2024). Technologie In _QUADRIGA OERs: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational Resources: Template._ https://quadriga-dk.github.io/QUADRIGA-OER-Manual/technologie/einführung.html
 
 `````
 ````{admonition} Zitierhinweis

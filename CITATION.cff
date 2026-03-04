@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
-version: 0.62.5
+version: 0.0.1
 title: 'QUADRIGA-OER: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational
-  Resources: Template'
+  Resources: Anleitung'
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
   `CITATION.cff`.
@@ -22,8 +22,8 @@ identifiers:
 - type: doi
   value: 10.5281/zenodo.14970672
   description: Zenodo
-repository-code: https://github.com/quadriga-dk/Book_Template
-url: https://quadriga-dk.github.io/Book_Template/
+repository-code: https://github.com/quadriga-dk/QUADRIGA-OER-Manual
+url: https://quadriga-dk.github.io/QUADRIGA-OER-Manual/
 keywords: &id002
 - Open Educational Resources
 - Offene Bildungsressource
@@ -40,14 +40,14 @@ references:
     website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
 preferred-citation:
   year: '2026'
-  version: 0.62.5
+  version: 0.0.1
   authors: *id001
   title: 'QUADRIGA-OER: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational
-    Resources: Template'
+    Resources: Anleitung'
   type: book
   doi: 10.5281/zenodo.14970672
-  url: https://quadriga-dk.github.io/Book_Template/
-  repository-code: https://github.com/quadriga-dk/Book_Template
+  url: https://quadriga-dk.github.io/QUADRIGA-OER-Manual/
+  repository-code: https://github.com/quadriga-dk/QUADRIGA-OER-Manual
   license: CC-BY-SA-4.0
   languages:
   - deu
@@ -57,6 +57,7 @@ abstract: Dieses interaktive Lehrbuch führt in die Erstellung von Open Educatio
   Resources (OER) nach den Empfehlungen und Vorgaben des Datenkompetenzzentrumgs QUADRIGA
   als <a href="https://jupyterbook.org">Jupyter Book</a> ein. Diese Empfehlungen und
   Vorgaben sind einerseits inhaltlicher und didaktischer andererseits technischer
-  Natur. Diese OER richtet sich vorrangig an OER-Erstellende und kann als Startpunkt
-  (Template) für die Erstellung eigener OER genutzt werden. Einzelne (Unter-)Kapitel
-  bieten zudem Erläuterungen zu Funktionalitäten für Lernende.
+  Natur. Diese OER richtet sich vorrangig an OER-Erstellende und kann zusammen mit
+  dem <a href="https://github.com/quadriga-dk/Book_Template" target="_blank">Book_Template</a>
+  für die Erstellung eigener OER genutzt werden. Einzelne (Unter-)Kapitel bieten zudem
+  Erläuterungen zu Funktionalitäten für Lernende.

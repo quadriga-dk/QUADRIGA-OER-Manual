@@ -11,23 +11,23 @@
     "Book",
     "LearningResource"
   ],
-  "name": "QUADRIGA-OER: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational Resources: Template",
-  "description": "Dieses interaktive Lehrbuch führt in die Erstellung von Open Educational Resources (OER) nach den Empfehlungen und Vorgaben des Datenkompetenzzentrumgs QUADRIGA als <a href=\"https://jupyterbook.org\">Jupyter Book</a> ein. Diese Empfehlungen und Vorgaben sind einerseits inhaltlicher und didaktischer andererseits technischer Natur. Diese OER richtet sich vorrangig an OER-Erstellende und kann als Startpunkt (Template) für die Erstellung eigener OER genutzt werden. Einzelne (Unter-)Kapitel bieten zudem Erläuterungen zu Funktionalitäten für Lernende.",
+  "name": "QUADRIGA-OER: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational Resources: Anleitung",
+  "description": "Dieses interaktive Lehrbuch führt in die Erstellung von Open Educational Resources (OER) nach den Empfehlungen und Vorgaben des Datenkompetenzzentrumgs QUADRIGA als <a href=\"https://jupyterbook.org\">Jupyter Book</a> ein. Diese Empfehlungen und Vorgaben sind einerseits inhaltlicher und didaktischer andererseits technischer Natur. Diese OER richtet sich vorrangig an OER-Erstellende und kann zusammen mit dem <a href=\"https://github.com/quadriga-dk/Book_Template\" target=\"_blank\">Book_Template</a> für die Erstellung eigener OER genutzt werden. Einzelne (Unter-)Kapitel bieten zudem Erläuterungen zu Funktionalitäten für Lernende.",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",
     "value": "10.5281/zenodo.14970672",
     "url": "https://doi.org/10.5281/zenodo.14970672"
   },
-  "version": "0.62.5",
+  "version": "0.0.1",
   "schemaVersion": "1.0.0",
-  "url": "https://quadriga-dk.github.io/Book_Template/",
+  "url": "https://quadriga-dk.github.io/QUADRIGA-OER-Manual/",
   "workExample": {
     "@type": "SoftwareSourceCode",
     "name": "Source Code Repository",
-    "codeRepository": "https://github.com/quadriga-dk/Book_Template"
+    "codeRepository": "https://github.com/quadriga-dk/QUADRIGA-OER-Manual"
   },
-  "datePublished": "2024-05-06",
+  "datePublished": "2026-03-03",
   "dateModified": "2026-03-03",
   "author": [
     {
@@ -198,7 +198,7 @@
       "@type": "LearningResource",
       "name": "Struktur und didaktisches Konzept",
       "description": "Dieses Kapitel stellt die Struktur des Templates und das zugrunde liegende didaktische Konzept vor.",
-      "url": "https://quadriga-dk.github.io/Book_Template/struktur_didaktisches_konzept/einleitung.html",
+      "url": "https://quadriga-dk.github.io/QUADRIGA-OER-Manual/struktur_didaktisches_konzept/einleitung.html",
       "timeRequired": "PT2H",
       "teaches": "Sie kennen und verstehen das fallstudienbasierte didaktische Konzept von QUADRIGA für die Gestaltung von OER.",
       "educationalAlignment": [
@@ -226,7 +226,7 @@
       "@type": "LearningResource",
       "name": "Technologie",
       "description": "Es werden die verschiedenen Bestandteile des Templates sowie die Technologien, welche genutzt werden, vorgestellt. Besonderes Augenmerk liegt auf dem Zusammenspiel der einzelnen Elemente.",
-      "url": "https://quadriga-dk.github.io/Book_Template/technologie/einleitung.html",
+      "url": "https://quadriga-dk.github.io/QUADRIGA-OER-Manual/technologie/einleitung.html",
       "timeRequired": "PT5H",
       "teaches": "Sie kennen die verschiedenen technologischen Bestandteile von QUADRIGA OER und ihr Zusammenspiel.",
       "educationalAlignment": [
@@ -266,7 +266,7 @@
       "@type": "LearningResource",
       "name": "Formatierungs- und Darstellungsmöglichkeiten",
       "description": "Spezifische Ausführungen und Anleitungen zu Markdown- und Jupyter-Noteboook-Dateien und Formatierungsmöglichkeiten. Empfehlungen für deren einheitliche Nutzung in QUADRIGA OERs.",
-      "url": "https://quadriga-dk.github.io/Book_Template/formatierung/einleitung.html",
+      "url": "https://quadriga-dk.github.io/QUADRIGA-OER-Manual/formatierung/einleitung.html",
       "timeRequired": "PT5H",
       "teaches": "Sie können Inhalte nach den Empfehlungen von QUADRIGA schreiben und formatieren.",
       "educationalAlignment": [
@@ -288,7 +288,7 @@
       "@type": "LearningResource",
       "name": "Lernstandskontrolle (Assessment)",
       "description": "Assessment-Konzept und dessen konkrete Ausgestaltung in Jupyter Books, die den QUADRIGA-Empfehlungen folgen",
-      "url": "https://quadriga-dk.github.io/Book_Template/assessment/einleitung.html",
+      "url": "https://quadriga-dk.github.io/QUADRIGA-OER-Manual/assessment/einleitung.html",
       "timeRequired": "PT3H",
       "teaches": "Sie verstehen das Assessmentkonzept QUADRIGAs und können dieses nach den Vorgaben und Empfehlungen implementieren",
       "educationalAlignment": [
