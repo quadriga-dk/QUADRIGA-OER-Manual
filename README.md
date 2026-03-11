@@ -1,6 +1,6 @@
 # QUADRIGA OERs: erstellen und gestalten mit Jupyter Book – QUADRIGA Open Educational Resources: Manual
 
-[![DOI](https://zenodo.org/badge/796588109.svg)](https://doi.org/10.5281/zenodo.14970672)
+[![DOI](https://zenodo.org/badge/1171691941.svg)](https://doi.org/10.5281/zenodo.18961415)
 
 Launch the latest version in Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/quadriga-dk/QUADRIGA-OER-Manual/main)
 
