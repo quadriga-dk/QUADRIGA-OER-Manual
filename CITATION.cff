@@ -31,7 +31,7 @@ keywords: &id002
 - Data Literacy
 - Datenkompetenz
 - open-educational-resources
-license: CC-BY-SA-4.0
+license: CC BY-SA 4.0
 references:
 - title: Jupyter Book
   type: software
@@ -48,7 +48,7 @@ preferred-citation:
   doi: 10.5281/zenodo.14970672
   url: https://quadriga-dk.github.io/QUADRIGA-OER-Manual/
   repository-code: https://github.com/quadriga-dk/QUADRIGA-OER-Manual
-  license: CC-BY-SA-4.0
+  license: CC BY-SA 4.0
   languages:
   - deu
   copyright: CC-BY-SA-4.0
