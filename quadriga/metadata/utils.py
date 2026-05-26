@@ -10,13 +10,8 @@ import json
 import logging
 import re
 from pathlib import Path
-from typing import TYPE_CHECKING
 
 import yaml
-
-if TYPE_CHECKING:
-    from collections.abc import Generator
-
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -46,10 +41,7 @@ def get_repo_root() -> Path:
         found_files = [f for f in required_files if (repo_root / f).exists()]
 
         if len(found_files) < 1:
-            msg = (
-                f"Repository root at {repo_root} doesn't contain expected files "
-                "(_config.yml or _toc.yml)"
-            )
+            msg = f"Repository root at {repo_root} doesn't contain expected files (_config.yml or _toc.yml)"
             raise FileNotFoundError(msg)
     except Exception:
         logger.exception("Error resolving repository root")
@@ -75,7 +67,7 @@ def get_file_path(relative_path: str | Path, repo_root: Path | None = None) -> P
     return repo_root / Path(relative_path)
 
 
-def iter_toc_files(node: dict | list) -> Generator:
+def iter_toc_files(node: dict | list):
     """Yield all 'file' path strings from a parsed _toc.yml, at any nesting depth.
 
     _toc.yml entries can be deeply nested under chapters, sections, and parts.
@@ -84,11 +76,11 @@ def iter_toc_files(node: dict | list) -> Generator:
     Example — given::
 
         chapters:
-          - file: Präambel/toc
+          - file: einstieg/toc
             sections:
-              - file: Präambel/Lernziele
+              - file: einstieg/Lernziele
 
-    Yields: ``"Präambel/toc"``, ``"Präambel/Lernziele"``
+    Yields: ``"einstieg/toc"``, ``"einstieg/Lernziele"``
     """
     if isinstance(node, dict):
         if "file" in node:
@@ -135,9 +127,7 @@ def load_yaml_file(file_path: str | Path) -> dict | list | None:
         return None
 
 
-def save_yaml_file(
-    file_path: str | Path, data: dict | list, schema_comment: str | None = None
-) -> bool:
+def save_yaml_file(file_path: str | Path, data: dict | list, schema_comment: str | None = None) -> bool:
     """
     Save Python object as YAML to the specified file.
 

@@ -4,11 +4,16 @@ from __future__ import annotations
 
 import logging
 import re
-import sys
 from pathlib import Path
 from typing import Any
 
-from .utils import get_file_path, get_repo_root, iter_toc_files, load_yaml_file, save_yaml_file
+from .utils import (
+    get_file_path,
+    get_repo_root,
+    iter_toc_files,
+    load_yaml_file,
+    save_yaml_file,
+)
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -28,8 +33,8 @@ def parse_metadata_comment(comment: str) -> dict[str, str]:
     """Parse 'competency: X | bloom: Y' from the inner text of an HTML comment."""
     metadata = {}
 
-    for part_raw in comment.split("|"):
-        part = part_raw.strip()
+    for part in comment.split("|"):
+        part = part.strip()
         if ":" not in part:
             continue
         key, value = part.split(":", 1)
@@ -95,7 +100,9 @@ def extract_admonition_blocks(
     validation_issues = []
 
     # Pattern to match admonition blocks preceded by <!-- START: ChapterName -->
-    admonition_pattern = r"<!--\s*START:\s*(.+?)\s*-->\s*\n```\{admonition\}\s+(.+?)\n((?::[^\n]+\n)*)((?:(?!```).)+)```"
+    admonition_pattern = (
+        r"<!--\s*START:\s*(.+?)\s*-->\s*\n```\{admonition\}\s+(.+?)\n((?::[^\n]+\n)*)((?:(?!```).)+)```"
+    )
 
     matches = re.finditer(admonition_pattern, content, re.DOTALL | re.MULTILINE)
 
@@ -123,9 +130,7 @@ def extract_admonition_blocks(
             learning_goal = normalize_whitespace(learning_goal_match.group(1))
         else:
             learning_goal = "TODO"
-            validation_issues.append(
-                {"section": section_title, "missing_fields": ["learning-goal"]}
-            )
+            validation_issues.append({"section": section_title, "missing_fields": ["learning-goal"]})
 
         # Strip all START/END markers before parsing objectives
         body_cleaned = re.sub(r"<!--\s*START:\s*.+?\s*-->\s*", "", body)
@@ -133,9 +138,7 @@ def extract_admonition_blocks(
 
         # Parse numbered objectives with optional inline metadata comment
         objectives = []
-        objective_pattern = (
-            r"\d+\.\s+(.+?)(?:(?:\n\s*|(?=<!--))<!--\s*(.+?)\s*-->)?(?=\n\d+\.|\n\n|$)"
-        )
+        objective_pattern = r"\d+\.\s+(.+?)(?:(?:\n\s*|(?=<!--))<!--\s*(.+?)\s*-->)?(?=\n\d+\.|\n\n|$)"
 
         for obj_match in re.finditer(objective_pattern, body_cleaned, re.DOTALL):
             objective_text = normalize_whitespace(obj_match.group(1))
@@ -148,11 +151,7 @@ def extract_admonition_blocks(
             missing_fields = validate_objective_metadata(objective_data)
             if missing_fields:
                 validation_issues.append(
-                    {
-                        "section": section_title,
-                        "objective": objective_text,
-                        "missing_fields": missing_fields,
-                    }
+                    {"section": section_title, "objective": objective_text, "missing_fields": missing_fields}
                 )
 
             objectives.append(objective_data)
@@ -182,7 +181,7 @@ def extract_from_lernziele_file(
         logger.info("Extracted %d admonition blocks from %s", len(blocks), md_file_path.name)
         return blocks, issues
     except FileNotFoundError:
-        logger.exception("File not found: %s", md_file_path)
+        logger.error("File not found: %s", md_file_path)
         return [], []
     except Exception:
         logger.exception("Error reading file: %s", md_file_path)
@@ -241,8 +240,7 @@ def merge_learning_objectives_into_metadata() -> bool:
         if validation_issues:
             generate_validation_report(validation_issues, report_path)
             logger.warning(
-                "⚠️ Found %d objectives with missing metadata. "
-                "See learning-objectives-validation.txt for details.",
+                "⚠️ Found %d objectives with missing metadata. See learning-objectives-validation.txt for details.",
                 len(validation_issues),
             )
         else:
@@ -271,10 +269,7 @@ def merge_learning_objectives_into_metadata() -> bool:
             chapter_objectives.setdefault(chapter, []).extend(section["objectives"])
             learning_goal = section.get("learning-goal")
             if learning_goal:
-                if (
-                    chapter in chapter_learning_goals
-                    and chapter_learning_goals[chapter] != learning_goal
-                ):
+                if chapter in chapter_learning_goals and chapter_learning_goals[chapter] != learning_goal:
                     logger.warning(
                         "Multiple learning goals found for chapter '%s'. Using first one.",
                         chapter,
@@ -323,4 +318,4 @@ def merge_learning_objectives_into_metadata() -> bool:
 
 if __name__ == "__main__":
     success = merge_learning_objectives_into_metadata()
-    sys.exit(0 if success else 1)
+    exit(0 if success else 1)

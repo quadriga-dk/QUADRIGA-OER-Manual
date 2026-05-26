@@ -79,9 +79,7 @@ def _create_initial_citation_cff(metadata: dict) -> dict:
             # Extract DOI value from URL
             doi_value = str(doi_url).split("doi.org/")[-1] if "doi.org/" in str(doi_url) else None
             if doi_value:
-                citation_data["identifiers"] = [
-                    {"type": "doi", "value": doi_value, "description": "Zenodo"}
-                ]
+                citation_data["identifiers"] = [{"type": "doi", "value": doi_value, "description": "Zenodo"}]
 
     if "description" in metadata:
         citation_data["abstract"] = metadata["description"]
