@@ -17,7 +17,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
-```{include} ../präambel/lernziele.md
+```{include} ../einstieg/lernziele.md
 :start-after: "<!-- START: Struktur und didaktisches Konzept -->"
 :end-before: "<!-- END: Struktur und didaktisches Konzept -->"
 ```
