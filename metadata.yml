@@ -37,7 +37,7 @@ description: Dieses interaktive Lehrbuch führt in die Erstellung von Open Educa
   dem <a href="https://github.com/quadriga-dk/Book_Template" target="_blank">Book_Template</a>
   für die Erstellung eigener OER genutzt werden. Einzelne (Unter-)Kapitel bieten zudem
   Erläuterungen zu Funktionalitäten für Lernende.
-table-of-contents: '- Präambel
+table-of-contents: '- Einstieg
 
   - Struktur und didaktisches Konzept
 
@@ -49,7 +49,7 @@ table-of-contents: '- Präambel
 
   - Reflexion und Resümee
 
-  - Epilog'
+  - Abschluss'
 discipline:
 - übergreifend
 research-object-type:

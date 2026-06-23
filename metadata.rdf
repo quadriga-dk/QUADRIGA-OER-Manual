@@ -62,13 +62,13 @@
   </schema:AlignmentObject>
   <schema:Book rdf:about="https://quadriga-dk.github.io/QUADRIGA-OER-Manual/">
     <dc:type>Jupyter Book</dc:type>
-    <dcterms:tableOfContents>- Präambel
+    <dcterms:tableOfContents>- Einstieg
 - Struktur und didaktisches Konzept
 - Technologie
 - Formatierungs- und Darstellungsmöglichkeiten
 - Lernstandskontrolle (Assessment)
 - Reflexion und Resümee
-- Epilog</dcterms:tableOfContents>
+- Abschluss</dcterms:tableOfContents>
     <dcterms:type>Jupyter Book</dcterms:type>
     <lrmi:learningResourceType>Jupyter Book</lrmi:learningResourceType>
     <schema:about>
