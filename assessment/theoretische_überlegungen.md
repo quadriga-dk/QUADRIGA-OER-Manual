@@ -1,5 +1,7 @@
 (assessment:theoretische_überlegungen)=
+
 # Theoretische Überlegungen
+
 ````{margin}
 ```{admonition} Fragen oder Feedback
 :class: frage-feedback
@@ -15,7 +17,6 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 ```
 ````
-
 
 QUADRIGA OER sind vorrangig an Selbstlerner:innen gerichtet, welche ihre
 Datenkompetenz verbessern wollen. Diese Lernenden benötigen Feedback um
