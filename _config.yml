@@ -19,7 +19,7 @@ exclude_patterns:
     useful_documentation.md,
     .github,
     "**Reviewbogen.md",
-    Checkliste_Finalisierung.md,
+    Checkliste_Qualitätssicherung.md,
     sprints.md,
   ]
 
