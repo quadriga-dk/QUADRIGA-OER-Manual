@@ -1,10 +1,14 @@
 # Umsetzung des Assessments
 
-Informationen zur Umsetzung von Quizzes mit JupyterQuiz finden Sie auf der
-[entsprechenden Unterseite](./umsetzung/jupyterquiz.ipynb).
+In diesem Unterkapitel finden Sie konkrete Anleitungen/Beispiele für die Nutzung verschiedener Assessment-Formate in einer QUADRIGA OER.
 
-Informationen zur Umsetzung von Aufgaben mit Selbstkontrolle finden Sie auf der
-[entsprechenden Unterseite](./umsetzung/selbstkontrolle.md).
-
-Informationen zur Umsetzung von Test-Driven Assessment finden Sie auf der
-[entsprechenden Unterseite](./umsetzung/test-driven_assessment.ipynb).
+- Single- und Multiple-Choice- sowie Exact-Match-Assessments werden JupyterQuiz
+  umgesetzt ([Anleitung](./umsetzung/jupyterquiz.ipynb)).
+- Für Reihungs- und Zuordnungsaufgaben hat QUADRIGA eine eigene Lösung
+  entwickelt (Anleitung folgt).
+- Aufgaben mit Selbstkontrolle können als einfache Admonitions (ohne
+  Speicherung oder Feedback) umgesetzt werden
+  ([Anleitung](./umsetzung/selbstkontrolle.md)).
+- Gewisse Programmier-Assessment-Aufgaben können in Form eines Test-Driven
+  Assessments umgesetzt werden
+  ([Anleitung](./umsetzung/test-driven_assessment.ipynb)).
