@@ -36,7 +36,7 @@ Schnaitter, H., Samoilova, E. & Islam, L. (2024). Technologie In _QUADRIGA OERs:
 `````
 
 
-```{include} ../präambel/lernziele.md
+```{include} ../einstieg/lernziele.md
 :start-after: "<!-- START: Technologie -->"
 :end-before: "<!-- END: Technologie -->"
 ```

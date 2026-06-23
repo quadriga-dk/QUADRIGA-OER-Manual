@@ -1,7 +1,7 @@
 (assessment:einleitung)=
 # Lernstandskontrolle (Assessment)
 
-```{include} ../präambel/lernziele.md
+```{include} ../einstieg/lernziele.md
 :start-after: "<!-- START: Lernstandskontrolle (Assessment) -->"
 :end-before: "<!-- END: Lernstandskontrolle (Assessment) -->"
 ```

@@ -1,7 +1,7 @@
 (formatierung:einleitung)=
 # Formatierungs- und Darstellungsmöglichkeiten
 
-```{include} ../präambel/lernziele.md
+```{include} ../einstieg/lernziele.md
 :start-after: "<!-- START: Formatierungs- und Darstellungsmöglichkeiten -->"
 :end-before: "<!-- END: Formatierungs- und Darstellungsmöglichkeiten -->"
 ```

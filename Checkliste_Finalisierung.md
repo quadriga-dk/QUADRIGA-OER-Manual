@@ -15,7 +15,7 @@
   - [ ] Struktur der Fallstudie + darstellendes Bild, das die Schritte der Fallstudie als Kapitel visualisiert
   - [ ] Kurze Beschreibug aller Schritte
   - [ ] Literatur
-- [ ] Präambel
+- [ ] Einstieg
   - [ ] Lernziele
   - [ ] Technische Voraussetzungen
   - [ ] Vorkenntnisse
@@ -25,7 +25,7 @@
   - [ ] Resümee
   - [ ] Assessment
 - [ ] Reflexion und Resümee
-- [ ] Epilog
+- [ ] Abschluss
 
 ## Inhalt
 - [ ] Möglichkeit zu Anmerkungen, Kommentierungen (z. B. durch die Zielgruppen)
