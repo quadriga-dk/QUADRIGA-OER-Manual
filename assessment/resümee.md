@@ -4,5 +4,8 @@
 
 ```{admonition} Keypoints
 :class: keypoint
-Wichtige Erkenntnisse, Lernergebnisse und sonstige Keypoints werden mit diesem Admonition-Typ gekennzeichnet.
+
+Wichtige Erkenntnisse, Lernergebnisse und sonstige Keypoints werden mit diesem
+Admonition-Typ gekennzeichnet.
+
 ```
