@@ -1,0 +1,192 @@
+# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v2.0.0/schema.json
+title: 'QUADRIGA-OER: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational
+  Resources: Anleitung'
+authorLIST:
+- familyName: Schnaitter
+  givenName: Hannes
+  orcid: https://orcid.org/0000-0002-1602-6032
+  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+  creditLIST:
+  - Writing – original draft
+  - Writing – review & editing
+  - Software
+- familyName: Samoilova
+  givenName: Evgenia
+  orcid: https://orcid.org/0000-0003-3858-901X
+  affiliation: Universität Potsdam
+  creditLIST:
+  - Writing – original draft
+  - Writing – review & editing
+- familyName: Islam
+  givenName: Lamia
+  affiliation: Universität Potsdam
+  creditLIST:
+  - Software
+keywordLIST:
+- Open Educational Resources
+- de: Offene Bildungsressource
+- en: Jupyter Book
+- en: Data Literacy
+  de: Datenkompetenz
+- open-educational-resources
+description: Dieses interaktive Lehrbuch führt in die Erstellung von Open Educational
+  Resources (OER) nach den Empfehlungen und Vorgaben des Datenkompetenzzentrumgs QUADRIGA
+  als <a href="https://jupyterbook.org">Jupyter Book</a> ein. Diese Empfehlungen und
+  Vorgaben sind einerseits inhaltlicher und didaktischer andererseits technischer
+  Natur. Diese OER richtet sich vorrangig an OER-Erstellende und kann zusammen mit
+  dem <a href="https://github.com/quadriga-dk/Book_Template" target="_blank">Book_Template</a>
+  für die Erstellung eigener OER genutzt werden. Einzelne (Unter-)Kapitel bieten zudem
+  Erläuterungen zu Funktionalitäten für Lernende.
+tableOfContents: '- Einstieg
+
+  - Struktur und didaktisches Konzept
+
+  - Technologie
+
+  - Formatierungs- und Darstellungsmöglichkeiten
+
+  - Lernstandskontrolle (Assessment)
+
+  - Reflexion und Resümee
+
+  - Abschluss'
+disciplineLIST:
+- übergreifend
+researchObjectTypeLIST:
+- übergreifend
+targetGroupLIST:
+- Forschende (PostDoc)
+- Forschende (Projektleitung)
+- Promovierende
+- Hochschullehrende
+timeRequired: PT16H15M
+language: de
+contributorLIST:
+- familyName: Seltmann
+  givenName: Melanie
+  orcid: https://orcid.org/0000-0002-7588-4395
+  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+- familyName: Walter
+  givenName: Paul
+  orcid: https://orcid.org/0000-0002-9236-3268
+  affiliation: Fachhochschule Potsdam
+- familyName: Zhang
+  givenName: Yue
+  orcid: https://orcid.org/0009-0007-6432-1259
+identifier: https://doi.org/10.5281/zenodo.14970672
+identifierGit: https://github.com/quadriga-dk/QUADRIGA-OER-Manual
+identifierOER: https://quadriga-dk.github.io/QUADRIGA-OER-Manual/
+usedToolLIST:
+- name: Jupyter Book
+  url: https://jupyterbook.org
+chapterLIST:
+- title: Struktur und didaktisches Konzept
+  description: Dieses Kapitel stellt die Struktur des Templates und das zugrunde liegende
+    didaktische Konzept vor.
+  url: https://quadriga-dk.github.io/QUADRIGA-OER-Manual/struktur_didaktisches_konzept/einleitung.html
+  timeRequired: PT2H
+  learningGoal: Sie kennen und verstehen das fallstudienbasierte didaktische Konzept
+    von QUADRIGA für die Gestaltung von OER.
+  learningObjectiveLIST:
+  - description: Der forschungsgeleitete Ansatz der QUADRIGA OERs kann erläutert und
+      der Beitrag von Fallstudien zur Datenkompetenzvermittlung erklärt werden.
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 2 Verstehen
+  - description: Die hierarchische Struktur der Lernziele in QUADRIGA OERs kann beschrieben
+      und der Zusammenhang zwischen Fallstudienstruktur, Datenlebenszyklus und Lernzielen
+      erläutert werden.
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 2 Verstehen
+  - description: Die zentralen didaktischen Komponenten einer QUADRIGA OER können
+      identifiziert und deren Funktion im Lernprozess erklärt werden.
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 2 Verstehen
+- title: Technologie
+  description: Es werden die verschiedenen Bestandteile des Templates sowie die Technologien,
+    welche genutzt werden, vorgestellt. Besonderes Augenmerk liegt auf dem Zusammenspiel
+    der einzelnen Elemente.
+  url: https://quadriga-dk.github.io/QUADRIGA-OER-Manual/technologie/einleitung.html
+  timeRequired: PT5H
+  learningGoal: Sie kennen die verschiedenen technologischen Bestandteile von QUADRIGA
+    OER und ihr Zusammenspiel.
+  learningObjectiveLIST:
+  - description: Die Bestandteile der Entwicklungsumgebung (Git, Python, Jupyter Book,
+      Editor) können identifiziert und deren Funktionen im OER-Entwicklungsprozess
+      erläutert werden.
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 2 Verstehen
+  - description: Der Unterschied zwischen Jupyter Book und Jupyter Notebook kann erklärt
+      und deren jeweilige Rolle im Entwicklungsworkflow beschrieben werden.
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 2 Verstehen
+  - description: Die automatische Website-Erstellung über GitHub Actions kann erklärt
+      und der Vorteil gegenüber manueller lokaler Entwicklung bewertet werden.
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 2 Verstehen
+  - description: Die Installation und Einrichtung einer lokalen Entwicklungsumgebung
+      mit Python/Anaconda kann durchgeführt und Virtual Environments für projektspezifische
+      Anforderungen erstellt werden.
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 3 Anwenden
+  - description: Der Unterschied zwischen Texteditoren und Textprozessoren für die
+      Code-Entwicklung kann erklärt und geeignete Editoren wie VS Code für die OER-Entwicklung
+      ausgewählt werden.
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 2 Verstehen
+- title: Formatierungs- und Darstellungsmöglichkeiten
+  description: Spezifische Ausführungen und Anleitungen zu Markdown- und Jupyter-Noteboook-Dateien
+    und Formatierungsmöglichkeiten. Empfehlungen für deren einheitliche Nutzung in
+    QUADRIGA OERs.
+  url: https://quadriga-dk.github.io/QUADRIGA-OER-Manual/formatierung/einleitung.html
+  timeRequired: PT5H
+  learningGoal: Sie können Inhalte nach den Empfehlungen von QUADRIGA schreiben und
+    formatieren.
+  learningObjectiveLIST:
+  - description: Kenntnis, Auswahl und Nutzung verschiedener möglicher Dateiformate
+      und Programmiersprachen
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 3 Anwenden
+  - description: Kenntnis, Auswahl und Nutzung spezifischer Auszeichungs- und Formatierungsoptionen
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 3 Anwenden
+- title: Lernstandskontrolle (Assessment)
+  description: Assessment-Konzept und dessen konkrete Ausgestaltung in Jupyter Books,
+    die den QUADRIGA-Empfehlungen folgen
+  url: https://quadriga-dk.github.io/QUADRIGA-OER-Manual/assessment/einleitung.html
+  timeRequired: PT3H
+  learningGoal: Sie verstehen das Assessmentkonzept QUADRIGAs und können dieses nach
+    den Vorgaben und Empfehlungen implementieren
+  learningObjectiveLIST:
+  - description: Verständnis des Assessmentkonzepts von QUADRIGA.
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 2 Verstehen
+  - description: Auswahl und Implementierung spezifischer Assessment-Formate
+    competency: Orientierungswissen
+    dataFlow: übergreifend
+    bloomsCategory: 3 Anwenden
+dateIssued: '2026-03-11'
+dateModified: '2026-03-11'
+version: 0.1.1
+contextOfCreation: 'Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum
+  QUADRIGA erstellt.
+
+
+  Förderkennzeichen: 16DKZ2034'
+qualityAssurance:
+  date: '2026-11-14'
+  description: https://doi.org/10.5281/zenodo.18953896
+learningResourceType: Jupyter Book
+schemaVersion: 2.0.0
+license: https://creativecommons.org/licenses/by-sa/4.0/
+licenseCode: https://opensource.org/licenses/AGPL-3.0
