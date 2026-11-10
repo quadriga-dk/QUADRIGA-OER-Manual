@@ -12,7 +12,7 @@
     "LearningResource"
   ],
   "name": "QUADRIGA-OER: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational Resources: Anleitung",
-  "description": "Dieses interaktive Lehrbuch führt in die Erstellung von Open Educational Resources (OER) nach den Empfehlungen und Vorgaben des Datenkompetenzzentrumgs QUADRIGA als <a href=\"https://jupyterbook.org\">Jupyter Book</a> ein. Diese Empfehlungen und Vorgaben sind einerseits inhaltlicher und didaktischer andererseits technischer Natur. Diese OER richtet sich vorrangig an OER-Erstellende und kann zusammen mit dem <a href=\"https://github.com/quadriga-dk/Book_Template\" target=\"_blank\">Book_Template</a> für die Erstellung eigener OER genutzt werden. Einzelne (Unter-)Kapitel bieten zudem Erläuterungen zu Funktionalitäten für Lernende.",
+  "description": "Diese Anleitung führt in die Erstellung von Open Educational Resources (OER) nach den Empfehlungen und Vorgaben des Datenkompetenzzentrums QUADRIGA als <a href=\"https://jupyterbook.org\">Jupyter Book</a> ein. Sie beschreibt die inhaltlichen, didaktischen und technischen Anforderungen. Die Anleitung richtet sich vorrangig an OER-Erstellende. Die zugehörige Vorlage für neue OER ist das separat auf GitHub liegende <a href=\"https://github.com/quadriga-dk/Book_Template\" target=\"_blank\">Book_Template</a>; aus ihm werden neue Repositorien erstellt und mit eigenen Inhalten gefüllt. Einzelne (Unter-)Kapitel bieten zudem Erläuterungen zu Funktionalitäten für Lernende.",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",
@@ -197,7 +197,7 @@
     {
       "@type": "LearningResource",
       "name": "Struktur und didaktisches Konzept",
-      "description": "Dieses Kapitel stellt die Struktur des Templates und das zugrunde liegende didaktische Konzept vor.",
+      "description": "Dieses Kapitel stellt die Struktur der QUADRIGA-OERs und das zugrunde liegende didaktische Konzept vor.",
       "url": "https://quadriga-dk.github.io/QUADRIGA-OER-Manual/struktur_didaktisches_konzept/einleitung.html",
       "timeRequired": "PT2H",
       "teaches": "Sie kennen und verstehen das fallstudienbasierte didaktische Konzept von QUADRIGA für die Gestaltung von OER.",
@@ -225,7 +225,7 @@
     {
       "@type": "LearningResource",
       "name": "Technologie",
-      "description": "Es werden die verschiedenen Bestandteile des Templates sowie die Technologien, welche genutzt werden, vorgestellt. Besonderes Augenmerk liegt auf dem Zusammenspiel der einzelnen Elemente.",
+      "description": "Es werden die verschiedenen Bestandteile der QUADRIGA-OERs sowie die im Book_Template genutzten Technologien vorgestellt. Besonderes Augenmerk liegt auf dem Zusammenspiel der einzelnen Elemente.",
       "url": "https://quadriga-dk.github.io/QUADRIGA-OER-Manual/technologie/einleitung.html",
       "timeRequired": "PT5H",
       "teaches": "Sie kennen die verschiedenen technologischen Bestandteile von QUADRIGA OER und ihr Zusammenspiel.",

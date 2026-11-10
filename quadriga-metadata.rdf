@@ -185,13 +185,13 @@
     </schema:contributor>
     <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-11</schema:dateModified>
     <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-11</schema:datePublished>
-    <schema:description>Dieses interaktive Lehrbuch führt in die Erstellung von Open Educational Resources (OER) nach den Empfehlungen und Vorgaben des Datenkompetenzzentrumgs QUADRIGA als &lt;a href="https://jupyterbook.org"&gt;Jupyter Book&lt;/a&gt; ein. Diese Empfehlungen und Vorgaben sind einerseits inhaltlicher und didaktischer andererseits technischer Natur. Diese OER richtet sich vorrangig an OER-Erstellende und kann zusammen mit dem &lt;a href="https://github.com/quadriga-dk/Book_Template" target="_blank"&gt;Book_Template&lt;/a&gt; für die Erstellung eigener OER genutzt werden. Einzelne (Unter-)Kapitel bieten zudem Erläuterungen zu Funktionalitäten für Lernende.</schema:description>
+    <schema:description>Diese Anleitung führt in die Erstellung von Open Educational Resources (OER) nach den Empfehlungen und Vorgaben des Datenkompetenzzentrums QUADRIGA als &lt;a href="https://jupyterbook.org"&gt;Jupyter Book&lt;/a&gt; ein. Sie beschreibt die inhaltlichen, didaktischen und technischen Anforderungen. Die Anleitung richtet sich vorrangig an OER-Erstellende. Die zugehörige Vorlage für neue OER ist das separat auf GitHub liegende &lt;a href="https://github.com/quadriga-dk/Book_Template" target="_blank"&gt;Book_Template&lt;/a&gt;; aus ihm werden neue Repositorien erstellt und mit eigenen Inhalten gefüllt. Einzelne (Unter-)Kapitel bieten zudem Erläuterungen zu Funktionalitäten für Lernende.</schema:description>
     <schema:funding>Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
 
 Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/QUADRIGA-OER-Manual/#chapter_0">
-        <schema:description>Dieses Kapitel stellt die Struktur des Templates und das zugrunde liegende didaktische Konzept vor.</schema:description>
+        <schema:description>Dieses Kapitel stellt die Struktur der QUADRIGA-OERs und das zugrunde liegende didaktische Konzept vor.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/QUADRIGA-OER-Manual/#chapter_0_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/QUADRIGA-OER-Manual/#chapter_0_objective_1" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/QUADRIGA-OER-Manual/#chapter_0_objective_2" />
@@ -203,7 +203,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/QUADRIGA-OER-Manual/#chapter_1">
-        <schema:description>Es werden die verschiedenen Bestandteile des Templates sowie die Technologien, welche genutzt werden, vorgestellt. Besonderes Augenmerk liegt auf dem Zusammenspiel der einzelnen Elemente.</schema:description>
+        <schema:description>Es werden die verschiedenen Bestandteile der QUADRIGA-OERs sowie die im Book_Template genutzten Technologien vorgestellt. Besonderes Augenmerk liegt auf dem Zusammenspiel der einzelnen Elemente.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/QUADRIGA-OER-Manual/#chapter_1_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/QUADRIGA-OER-Manual/#chapter_1_objective_1" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/QUADRIGA-OER-Manual/#chapter_1_objective_2" />
