@@ -13,14 +13,14 @@
     Geben Sie uns Feedback
 </a>
 
-Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre Bedürfnisse anpassen.
+Mit Ihren Rückmeldungen können wir diese Anleitung gezielt verbessern.
 ```
 ````
 
 In diesem Kapitel wird Ihnen zuerst das Metadatenschema für QUADRIGA-OERs
 vorgestellt. Anschließend wird präsentiert, wie dieses in der Datei
 `metadata.yml` konkret umgesetzt wird. Zum Abschluss werden die tatsächlichen
-Metadaten der vorliegenden OER präsentiert sowie die verschiedenen
+Metadaten dieser Anleitung präsentiert sowie die verschiedenen
 Exportformate erläutert.
 
 ## Das QUADRIGA Metadatenschema
@@ -452,7 +452,7 @@ Kapitels.
 Angedachte Bearbeitungsdauer für Lernende, spezifisch für dieses Kapitel, im
 ISO 8601 Duration-Format.
 
-## `metadata.yml` der vorliegenden OER
+## `metadata.yml` dieser Anleitung
 
 ```{literalinclude} /metadata.yml
 :language: yaml

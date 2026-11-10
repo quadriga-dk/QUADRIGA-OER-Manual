@@ -1,10 +1,10 @@
 # Interaktive Rechenumgebungen mit Google Colab
 
-Da Jupyter Books auf Jupyter-Notebooks oder ausführbaren Markdown-Dateien basieren, ist es möglich, über einen Launch-Button direkt in der Cloud interaktive Jupyter-Sessions zu starten. So können Inhalte in einer vertrauten Coding-Umgebung live ausprobiert werden. Wir verwenden in dieser Vorlage Google Colab, eine kostenlose Cloud-Lösung für Jupyter Notebooks. Im Folgenden erläutern wir die wichtigsten Aspekte der Nutzung dieser interaktiven Funktionen.
+Da Jupyter Books auf Jupyter-Notebooks oder ausführbaren Markdown-Dateien basieren, ist es möglich, über einen Launch-Button direkt in der Cloud interaktive Jupyter-Sessions zu starten. So können Inhalte in einer vertrauten Coding-Umgebung live ausprobiert werden. Im <a href="https://github.com/quadriga-dk/Book_Template" class="external-link" target="_blank"><code>Book_Template</code></a> ist Google Colab – eine kostenlose Cloud-Lösung für Jupyter Notebooks – bereits vorkonfiguriert; diese Anleitung erklärt, wie Sie diese interaktiven Funktionen nutzen und für Ihre eigene OER anpassen. Im Folgenden erläutern wir die wichtigsten Aspekte.
 
 
 ## Technische Konfiguration
-Damit die Launch-Buttons in Ihrem Jupyter Book erscheinen, muss die Datei `_config.yml` entsprechend konfiguriert werden. Fügen Sie folgende Zeilen in Ihre `_config.yml` ein:
+Damit die Launch-Buttons in Ihrem Jupyter Book erscheinen, muss die Datei `_config.yml` entsprechend konfiguriert werden. Im `Book_Template` ist diese Konfiguration bereits enthalten; die folgenden Zeilen zeigen, welche Einträge dafür verantwortlich sind. Fügen Sie sie in Ihre `_config.yml` ein, wenn sie dort noch fehlen:
 
 ```yaml
 launch_buttons:
@@ -61,7 +61,7 @@ Neben Google Colab existieren weitere Plattformen für interaktive Notebooks:
 
 - **JupyterHub**: Wird häufig von Universitäten und Organisationen für gehostete Notebooks eingesetzt
 
-Google Colab bietet für die meisten Lernenden den einfachsten Einstieg und wird daher in diesem Lehrbuch als primäre Plattform verwendet.
+Google Colab bietet für die meisten Lernenden den einfachsten Einstieg und wird daher in dieser Anleitung als primäre Plattform behandelt.
 
 
 ```{admonition} Zusätzliche Materialien

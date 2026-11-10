@@ -11,6 +11,12 @@ GitHub Pages ist ein Hosting-Dienst, mit dem digitale Inhalte direkt aus einem G
 Damit diese Methoden funktionieren, muss das GitHub-Repository **public** sein.
 ```
 
+```{admonition} Hinweis zur Umsetzung im Book_Template
+:class: hinweis
+
+Das <a href="https://github.com/quadriga-dk/Book_Template" class="external-link" target="_blank"><code>Book_Template</code></a> enthält bereits eine fertige GitHub Action in `.github/workflows/`, die das Jupyter Book baut und auf GitHub Pages veröffentlicht. Für Ihre eigene OER müssen Sie diesen Workflow daher nicht neu schreiben, sondern nur anpassen. Das unten gezeigte YAML-Beispiel ist bewusst allgemein gehalten und dient ausschließlich der Erklärung, wie ein solcher Workflow aufgebaut ist.
+```
+
 ## Deploy from a branch
 
 **Charakteristika:**
