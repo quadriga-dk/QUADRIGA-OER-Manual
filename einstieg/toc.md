@@ -1,2 +1,2 @@
 # Einstieg
-In diesem Kapitel werden die [Lernziele](/einstieg/lernziele.md) der vorliegenden OER genauer vorgestellt, die technischen [Voraussetzungen](/einstieg/technische_voraussetzungen.md) spezifiziert und die [Vorkenntnisse](/einstieg/vorkenntnisse.md), die Sie für eine erfolgreiche Nutzung der OER mitbringen sollten, genannt.
+In diesem Kapitel werden die [Lernziele](/einstieg/lernziele.md) der vorliegenden Anleitung genauer vorgestellt, die technischen [Voraussetzungen](/einstieg/technische_voraussetzungen.md) spezifiziert und die [Vorkenntnisse](/einstieg/vorkenntnisse.md), die Sie für eine erfolgreiche Nutzung der Anleitung mitbringen sollten, genannt.

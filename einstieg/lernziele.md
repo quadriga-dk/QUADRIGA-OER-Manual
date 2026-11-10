@@ -1,6 +1,8 @@
 (lernziele)=
 # Lernziele
 
+Die folgenden Lernziele beschreiben, was Sie nach der Lektüre dieser Anleitung können. Die Anleitung zeigt, wie QUADRIGA-OERs mit Jupyter Book erstellt und gestaltet werden; die Vorlage für Ihre eigene OER ist das `Book_Template`.
+
 <!-- START: Struktur und didaktisches Konzept -->
 ```{admonition} [Das fallstudienbasierte didaktische Konzept von QUADRIGA](struktur:einleitung)
 :class: lernziele
