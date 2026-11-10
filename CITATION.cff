@@ -2,14 +2,14 @@
 cff-version: 1.2.0
 title: 'QUADRIGA-OER: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational
   Resources: Anleitung'
-abstract: Dieses interaktive Lehrbuch führt in die Erstellung von Open Educational
-  Resources (OER) nach den Empfehlungen und Vorgaben des Datenkompetenzzentrumgs QUADRIGA
-  als <a href="https://jupyterbook.org">Jupyter Book</a> ein. Diese Empfehlungen und
-  Vorgaben sind einerseits inhaltlicher und didaktischer andererseits technischer
-  Natur. Diese OER richtet sich vorrangig an OER-Erstellende und kann zusammen mit
-  dem <a href="https://github.com/quadriga-dk/Book_Template" target="_blank">Book_Template</a>
-  für die Erstellung eigener OER genutzt werden. Einzelne (Unter-)Kapitel bieten zudem
-  Erläuterungen zu Funktionalitäten für Lernende.
+abstract: Diese Anleitung führt in die Erstellung von Open Educational Resources (OER)
+  nach den Empfehlungen und Vorgaben des Datenkompetenzzentrums QUADRIGA als <a href="https://jupyterbook.org">Jupyter
+  Book</a> ein. Sie beschreibt die inhaltlichen, didaktischen und technischen Anforderungen.
+  Die Anleitung richtet sich vorrangig an OER-Erstellende. Die zugehörige Vorlage
+  für neue OER ist das separat auf GitHub liegende <a href="https://github.com/quadriga-dk/Book_Template"
+  target="_blank">Book_Template</a>; aus ihm werden neue Repositorien erstellt und
+  mit eigenen Inhalten gefüllt. Einzelne (Unter-)Kapitel bieten zudem Erläuterungen
+  zu Funktionalitäten für Lernende.
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
   `CITATION.cff`.
