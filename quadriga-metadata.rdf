@@ -240,8 +240,8 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:identifier>
       <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/QUADRIGA-OER-Manual/#doi">
         <schema:propertyID>DOI</schema:propertyID>
-        <schema:url rdf:resource="https://doi.org/10.5281/zenodo.14970672" />
-        <schema:value>10.5281/zenodo.14970672</schema:value>
+        <schema:url rdf:resource="https://doi.org/10.5281/zenodo.18961415" />
+        <schema:value>10.5281/zenodo.18961415</schema:value>
       </schema:PropertyValue>
     </schema:identifier>
     <schema:inLanguage>de</schema:inLanguage>
