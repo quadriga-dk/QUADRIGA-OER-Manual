@@ -1,7 +1,9 @@
 (formatierung:admonitions)=
 # Admonitions
 
-Sogenannte Admonitions werden genutzt, um bestimmte Inhalte hervorzuheben. In QUADRIGA OER nutzen wir dafür die folgenden Typen.
+Sogenannte Admonitions werden genutzt, um bestimmte Inhalte hervorzuheben. In QUADRIGA OER nutzen wir dafür die folgenden Typen. Die zugehörigen Gestaltungsregeln sind in der Datei `_static/quadriga.css` definiert, die im <a
+    href="https://github.com/quadriga-dk/Book_Template"
+    class="external-link" target="_blank"><code>Book_Template</code></a> enthalten ist.
 
 
 `````{admonition} Übung

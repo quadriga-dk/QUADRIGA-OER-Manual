@@ -42,7 +42,7 @@ oder die Bewertungsgrundlagen aufnehmen müssen?
 In diesem Fall ist die Musterlösung die auf dieser Seite vorgestellte
 Aufgabenstellung inklusive der Hinweise zur Durchführung der Selbstkontrolle.
 
-Wie gut hat Ihnen diese Vorlage geholfen? Geben Sie uns gerne per GitHub Issue
+Wie gut hat Ihnen diese Anleitung geholfen? Geben Sie uns gerne per GitHub Issue
 Feedback.
 
 ```{figure} ../../assets/assessment/umsetzung/selbstkontrolle/GitHub_Issue_erstellen.png

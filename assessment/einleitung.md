@@ -13,7 +13,7 @@
     Geben Sie uns Feedback
 </a>
 
-Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre Bedürfnisse anpassen.
+Mit Ihren Rückmeldungen können wir diese Anleitung gezielt verbessern.
 
 ```
 ````
@@ -25,6 +25,10 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 In diesem Kapitel werden theoretische Überlegungen zum Assessment von
 Selbstlernkursen im Rahmen von QUADRIGA angestellt und dann Beispiel für die
-Umsetzung in den QUADRIGA OER gegeben.
+Umsetzung in den QUADRIGA OER gegeben. Die beschriebenen Formate gelten für die
+OER, die Sie mit dem <a
+    href="https://github.com/quadriga-dk/Book_Template"
+    class="external-link" target="_blank"><code>Book_Template</code></a>
+erstellen.
 
 Für die Entwicklung von OER nach QUADRIGA-Empfehlungen sollten Sie die passenden Unterseiten für die verschiedenen verfügbaren Assessment-Formate durchlesen. Die theoretischen Überlegungen zum Assessmentkonzept sind grundlegend für das Verständnis gewisser Entscheidungen in der Implementierung jedoch nicht zwingend notwendig im "täglichen Geschäft" des OER-Schreibens.
