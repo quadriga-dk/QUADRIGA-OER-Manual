@@ -27,7 +27,7 @@ authors: &id001
   affiliation: Universität Potsdam
 identifiers:
 - type: doi
-  value: 10.5281/zenodo.14970672
+  value: 10.5281/zenodo.18961415
   description: Zenodo
 repository-code: https://github.com/quadriga-dk/QUADRIGA-OER-Manual
 url: https://quadriga-dk.github.io/QUADRIGA-OER-Manual/
@@ -51,7 +51,7 @@ preferred-citation:
   title: 'QUADRIGA-OER: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational
     Resources: Anleitung'
   type: book
-  doi: 10.5281/zenodo.14970672
+  doi: 10.5281/zenodo.18961415
   url: https://quadriga-dk.github.io/QUADRIGA-OER-Manual/
   repository-code: https://github.com/quadriga-dk/QUADRIGA-OER-Manual
   license: CC-BY-SA-4.0
