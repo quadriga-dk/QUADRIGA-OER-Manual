@@ -1,7 +1,23 @@
 (Checkliste_neue_OER)=
 # Checkliste neue OER
-Die nachfolgende Liste können Sie nutzen, wenn Sie eine neue OER auf Basis dieses Templates erstellen. Sie bietet einen Überblick über alle Schritte und verweist jeweils auf die relevanten Kapitel und Abschnitte dieses Templates.
+Die nachfolgende Checkliste hilft Ihnen, wenn Sie eine neue OER mit dem <a
+    href="https://github.com/quadriga-dk/Book_Template"
+    class="external-link" target="_blank"><code>Book_Template</code></a>
+erstellen. Sie bietet einen Überblick über alle Schritte von der Planung bis zur
+Veröffentlichung. Verweise auf Kapitel und Abschnitte beziehen sich jeweils auf
+diese Anleitung, in der die einzelnen Punkte erläutert werden.
 
+Eine Demo-Version der Vorlage finden Sie unter <a
+    href="https://quadriga-dk.github.io/Book_Template/"
+    class="external-link" target="_blank">https://quadriga-dk.github.io/Book_Template/</a>.
+
+
+## Repositorium anlegen
+- [ ] <a href="https://github.com/quadriga-dk/Book_Template"
+    class="external-link" target="_blank"><code>Book_Template</code></a>
+    als neues Repositorium angelegt
+  - in GitHub über die Funktion "Use this template"
+  - oder per Download der Vorlage als `.zip`-Datei und Ablegen der Inhalte in einem neuen Repositorium
 
 ## Planung und Strukturierung
 - [ ] Fallstudie identifiziert mit konkreter Forschungsfrage und authentischen Daten
@@ -33,7 +49,7 @@ Die nachfolgende Liste können Sie nutzen, wenn Sie eine neue OER auf Basis dies
 - [ ] Bilder mit Alt-Texten für Barrierefreiheit versehen
 
 ## Git Repositorium
-- [ ] Inhalte des Templates in neues Git-Repositorium überführt
+- [ ] Inhalte des `Book_Template` vollständig in das neue Git-Repositorium übernommen
   - entweder "von Hand" per Download und Kopieren der relevanten Dateien
   - in GitHub, per Template-Funktionalität
 - [ ] Sichtbarkeit und Zugriffsrechte korrekt konfiguriert
@@ -59,7 +75,7 @@ Die nachfolgende Liste können Sie nutzen, wenn Sie eine neue OER auf Basis dies
 - [ ] Anpassung von Farben
 
 ## Aufräumen
-- [ ] Entfernen nicht benötigter Inhalte aus dem Template
+- [ ] Entfernen nicht benötigter Inhalte aus Ihrer Kopie des `Book_Template`
 
 ## `README.md`
 - [ ] `README.md` angepasst

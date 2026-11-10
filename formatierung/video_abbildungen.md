@@ -43,7 +43,10 @@ Wer die Animation nicht sehen kann, ist auf den `alt`-Text angewiesen. Beschreib
 
 ## Einrichtung im Buch
 
-Die Funktion besteht aus `_ext/video_figure.py` (Rendering), `_static/video-figure.js` (Play/Pause) und den zugehörigen Regeln in `_static/quadriga.css`. Die Dateien liefert das QUADRIGA-Scaffolding; in `_config.yml` müssen Erweiterung und Skript registriert sein:
+Die Funktion besteht aus `_ext/video_figure.py` (Rendering), `_static/video-figure.js` (Play/Pause) und den zugehörigen Regeln in `_static/quadriga.css`. Die Dateien sind im <a
+    href="https://github.com/quadriga-dk/Book_Template"
+    class="external-link" target="_blank"><code>Book_Template</code></a>
+enthalten; in `_config.yml` müssen Erweiterung und Skript registriert sein:
 
 ```yaml
 sphinx:

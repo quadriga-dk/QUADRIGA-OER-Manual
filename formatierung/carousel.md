@@ -28,11 +28,13 @@ Ein Carousel ist ein interaktives Element, das mehrere Inhalte (wie Bilder, Text
 
 ## Anleitung zur Nutzung des benutzerdefinierten Carousels
 
-Diese Beispielseite verwendet ein **angepasstes Carousel**, das mit einer eigenen CSS- und JavaScript-Datei (`carousel.css` und `carousel.js`) ausgestattet ist. Damit das Carousel korrekt funktioniert, müssen diese Dateien in das Jupyter Book eingebunden werden.
+Diese Beispielseite verwendet ein **angepasstes Carousel**, das mit einer eigenen CSS- und JavaScript-Datei (`carousel.css` und `carousel.js`) ausgestattet ist. Beide Dateien sind Bestandteil des <a
+    href="https://github.com/quadriga-dk/Book_Template"
+    class="external-link" target="_blank"><code>Book_Template</code></a> und liegen dort im Ordner `_static`. Damit das Carousel korrekt funktioniert, müssen diese Dateien in das Jupyter Book eingebunden werden.
 
-### Szenario 1: Dateien sind bereits vorhanden
+### Szenario 1: Sie arbeiten mit dem `Book_Template`
 
-Falls Sie die `carousel.css` und `carousel.js` Dateien bereits in Ihrem `_static` Ordner haben, können Sie direkt die folgende Syntax verwenden, um das Carousel in Ihrem Jupyter Book zu nutzen:
+Wenn Sie Ihre OER auf Basis des `Book_Template` erstellen, sind die Dateien `carousel.css` und `carousel.js` bereits in `_static` vorhanden und über `_config.yml` eingebunden. Sie können das Carousel daher direkt mit der folgenden Syntax verwenden:
 
 `````
 ````{card-carousel} 1
@@ -54,8 +56,9 @@ Falls Sie die `carousel.css` und `carousel.js` Dateien bereits in Ihrem `_static
 
 ````
 `````
-### Szenario 2: Dateien sind nicht vorhanden
-Falls Sie die `carousel.css` und `carousel.js` Dateien noch nicht haben, folgen Sie diesen Schritten:
+### Szenario 2: Die Dateien sind nicht vorhanden
+
+Falls die `carousel.css` und `carousel.js` Dateien in Ihrem Projekt noch nicht vorhanden sind – etwa weil Sie ein eigenes Jupyter Book ohne das `Book_Template` aufsetzen –, folgen Sie diesen Schritten:
 
 #### Dateien herunterladen
 Laden Sie die `carousel.css` und `carousel.js` Dateien herunter und speichern Sie sie in Ihrem Projekt.

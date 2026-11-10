@@ -1,5 +1,5 @@
 name: Frage
-description: Nutzen Sie diese Vorlage, um eine Frage zu dieser Fallstudie zu stellen
+description: Nutzen Sie dieses Formular, um eine Frage zu dieser Anleitung zu stellen
 title: "Frage: "
 labels: ["question"]
 assignees: []
@@ -13,7 +13,7 @@ body:
     id: section
     attributes:
       label: Abschnitt/Modul
-      description: Zu welchem Teil der Fallstudie ist Ihre Frage?
+      description: Zu welchem Teil der Anleitung ist Ihre Frage?
       placeholder: "z.B. Kapitel B, Abschnitt 2"
     validations:
       required: false

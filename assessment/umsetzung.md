@@ -1,6 +1,8 @@
 # Umsetzung des Assessments
 
-In diesem Unterkapitel finden Sie konkrete Anleitungen/Beispiele für die Nutzung verschiedener Assessment-Formate in einer QUADRIGA OER.
+In diesem Unterkapitel finden Sie konkrete Anleitungen/Beispiele für die Nutzung verschiedener Assessment-Formate in einer QUADRIGA OER. Die Beispiele stammen aus dem <a
+    href="https://github.com/quadriga-dk/Book_Template"
+    class="external-link" target="_blank"><code>Book_Template</code></a> und lassen sich in Ihre eigene OER übernehmen.
 
 - Single- und Multiple-Choice- sowie Exact-Match-Assessments werden JupyterQuiz
   umgesetzt ([Anleitung](./umsetzung/jupyterquiz.ipynb)).

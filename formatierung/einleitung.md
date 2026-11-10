@@ -11,7 +11,7 @@ Jupyter Book verarbeitet standardmäßig zwei Dateiformate –
 Notebook[^url-jupyter-notebook]. Dabei gibt es verschiedene
 Formatierungsmöglichkeiten um Abbildungen, Admonitions und ähnliches
 umzusetzen. In den nachfolgenden Abschnitten werden grundlegende
-Formatierungshinweise gegeben sowie spezielle Variationen für QUADRGIA OER
+Formatierungshinweise gegeben sowie spezielle Variationen für QUADRIGA-OERs
 vorgestellt. Weitere Hinweise zur Formatierung finden Sie auch im <a
     href="https://jupyterbook.org/en/stable/reference/cheatsheet.html"
     class="external-link" target="_blank">MyST syntax cheat sheet</a>.
@@ -21,7 +21,13 @@ einer Seite in Jupyter Book ({numref}`%s. Markdown<formatierung:markdown>`, [3.
 Jupyter Notebook](./notebooks.ipynb) und {numref}`%s. MyST
 Notebook<formatierung:myst_notebooks>`) vorgestellt. Dann folgen einzelne
 Abschnitte, die sich mit konkreten Umsetzungsempfehlungen/-vorgaben einer
-Formatierung oder Funktionalität in QUADRIGA OER befassen.
+Formatierung oder Funktionalität in QUADRIGA-OERs befassen.
+
+Die in diesem Kapitel gezeigten Beispiele stammen aus dem <a
+    href="https://github.com/quadriga-dk/Book_Template"
+    class="external-link" target="_blank"><code>Book_Template</code></a>. Sie
+dienen als Ausgangspunkt für Ihre eigenen Inhalte: Übernehmen Sie die Muster
+und passen Sie sie an Ihre Fallstudie an.
 
 Konkrete Umsetzung in QUADRIGA OER:
 

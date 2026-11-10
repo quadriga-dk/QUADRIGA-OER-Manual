@@ -1,6 +1,6 @@
 # Zielgruppe von QUADRIGA OER
 
-QUADRGIA entwickelt OER für Wissenschaftler:innen, die Kompetenzen aus dem
+QUADRIGA entwickelt OER für Wissenschaftler:innen, die Kompetenzen aus dem
 Spektrum der Datenkompetenz {cite}`{siehe}neuroth2025, petras2026` erlernen
 oder stärken wollen. Genauer werden Wissenschaftler:innen ab der
 Qualifikationsstufe der Promovierenden adressiert.
