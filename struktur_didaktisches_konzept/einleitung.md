@@ -12,7 +12,7 @@
     Geben Sie uns Feedback
 </a>
 
-Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre Bedürfnisse anpassen.
+Mit Ihren Rückmeldungen können wir diese Anleitung gezielt verbessern.
 
 ```
 ````
@@ -21,6 +21,8 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 :start-after: "<!-- START: Struktur und didaktisches Konzept -->"
 :end-before: "<!-- END: Struktur und didaktisches Konzept -->"
 ```
+
+Dieses Kapitel beschreibt, wie QUADRIGA-OERs aufgebaut sind – also die Bücher, die Sie aus dem <a href="https://github.com/quadriga-dk/Book_Template" class="external-link" target="_blank">Book_Template</a> erstellen. Die beschriebene Kapitelstruktur ist in der Vorlage bereits angelegt und dient dort als Gerüst für Ihre Inhalte.
 
 Im Rahmen des QUADRIGA-Projekts werden Open Educational Resources (OERs) entwickelt, die auf realen Forschungsfragen und Fallstudien basieren. Die didaktische Konzeption dieser OERs {cite}`samoilova2024` folgt bestimmten Prinzipien, die in diesem Kapitel vorgestellt werden.
 
