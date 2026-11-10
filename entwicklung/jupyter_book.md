@@ -49,7 +49,7 @@ Wir nutzen das Programm `conda`, um Environments anzulegen, wobei wir Ihnen empf
 
 Sind Sie in einem Environment, so können Sie dieses mit `conda deactivate` deaktivieren.
 
-Sie können "globale" Environments anlegen, jedoch empfehlen wir projekt-spezifische Environments, die im Ordner der OER abgelegt werden. Git ist im Template so konfiguriert, dass der Ordner `conda` ignoriert wird.
+Sie können "globale" Environments anlegen, jedoch empfehlen wir projekt-spezifische Environments, die im Ordner der OER abgelegt werden. Im `Book_Template` ist Git so konfiguriert, dass der Ordner `conda` ignoriert wird.
 
 Legen Sie ein lokales Environment an, in welchem Python3 installiert ist, mit dem nachfolgenden Befehl. Wählen Sie dabei die Standardinstallation.
 ```bash

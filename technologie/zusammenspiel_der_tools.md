@@ -1,11 +1,18 @@
 (zusammenspiel_der_tools)=
 # Zusammenspiel der Tools
 
-Der Technologie besteht aus verschiedenen Programmen und Dateitypen. Die Inhalte der OER werden in Markdown-Dateien (`.md`) und Jupyter Notebooks (`.ipynb`) verfasst. In diese Dateien können zusätzlich zum reinen Text statische Inhalte wie Abbildungen und dynamische Inhalte wie Programmcode integriert werden.
+Der Technologie-Stack besteht aus verschiedenen Programmen und Dateitypen. Die Inhalte der OER werden in Markdown-Dateien (`.md`) und Jupyter Notebooks (`.ipynb`) verfasst. In diese Dateien können zusätzlich zum reinen Text statische Inhalte wie Abbildungen und dynamische Inhalte wie Programmcode integriert werden.
+
+```{admonition} Hinweis
+:class: hinweis
+
+Die in diesem Kapitel beschriebenen Dateien und Konfigurationen – bspw. `_config.yml`, `_toc.yml`, `requirements.txt` und die GitHub Actions in `.github/workflows/` – sind im <a href="https://github.com/quadriga-dk/Book_Template" class="external-link" target="_blank"><code>Book_Template</code></a> bereits angelegt. Diese Anleitung erklärt, wie die Bestandteile zusammenspielen und wie Sie sie für Ihre eigene OER anpassen.
+```
+
 
 Die Inhalte werden dann vom Programm `jupyter-book` in eine Website (bestehend aus `.html`-, `.css`- und `.js`-Dateien) übersetzt. Beinhaltet eine Inhaltsdatei Programmcode, so wird dieser ausgeführt und die Programmergebnisse werden entsprechend der Konfiguration in die Inhaltsdatei eingebettet. Dieser Schritt wird einerseits von den Entwickler:innen während des Schreibens lokal durchgeführt, andererseits bei in GitHub veröffentlichten Änderungen automatisch durch eine GitHub Action übernommen.
 
-Die entstandene Website kann anschließend veröffentlicht/gehostet werden. Nutzer:innen könne dazu die Ergebnisse des Programms `jupyter-book` auf einen Web-Server kopieren. Im Falle dieser OER übernimmt auch diesen Schritt die GitHub Action, wobei die Rolle des Webservers durch den kostenlosen Dienst GitHub Pages übernommen wird.
+Die entstandene Website kann anschließend veröffentlicht/gehostet werden. Nutzer:innen können dazu die Ergebnisse des Programms `jupyter-book` auf einen Web-Server kopieren. Im Falle dieser OER übernimmt auch diesen Schritt die GitHub Action, wobei die Rolle des Webservers durch den kostenlosen Dienst GitHub Pages übernommen wird.
 
 Auf die hier vorgestellten Technologien und deren Zusammenspiel wird im Laufenden jeweils genauer eingegangen. Die Entwicklungsumgebung wird dabei genauer in {numref}`%s Entwicklungsumgebung<entwicklung:einleitung>` vorgestellt. Die Eigenschaften und Fähigkeiten von Markdown-Dateien und Jupyter Notebooks werden genauer in {numref}`%s Entwicklungsumgebung<formatierung:einleitung>` behandelt.
 

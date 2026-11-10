@@ -25,7 +25,7 @@ Um Git für die Erstellung der QUADRIGA-OER zu nutzen wird ein Github-Account be
 
 Um Änderungen an den QUADRIGA OER vornehmen zu können sollte der Account der Organisation <a href="https://github.com/quadriga-dk" class="external-link" target="_blank">quadriga-dk</a> zugeordnet werden. Die Arbeit über Pull-Requests ist auch möglich und was insbesondere für Externe Mitarbeiter:innen bevorzugt wird.
 
-Nutzen Sie diese Anleitung für die Erstellung von OER außerhalb des QUADRIGA-Projekts, so benötigen Sie keine zusätzlichen Rechte. Sie können das vorliegende Repositorium als Template für Ihre eigene OER nutzen.
+Nutzen Sie diese Anleitung für die Erstellung von OER außerhalb des QUADRIGA-Projekts, so benötigen Sie keine zusätzlichen Rechte. Für Ihre eigene OER verwenden Sie die Vorlage <a href="https://github.com/quadriga-dk/Book_Template" class="external-link" target="_blank"><code>Book_Template</code></a>. Diese Anleitung selbst ist kein Template und sollte nicht als Ausgangspunkt für ein neues Buch kopiert werden.
 
 ## Die wichtigsten Git Befehle
 Git speichert Abbilder/Snapshots einer Ordnerstruktur – eines sogenannten Repositoriums. Ein Snapshot wird in Git als Commit bezeichnet. Ein Commit verweist auf alle Dateien und deren Inhalte zu einem bestimmten (logischen) Zeitpunkt.
@@ -33,13 +33,18 @@ Git speichert Abbilder/Snapshots einer Ordnerstruktur – eines sogenannten Repo
 Ein Git Repositorium auf einem Server wie Github oder lokal beinhaltet die gleichen Inhalte und Konfigurationsdateien. Jede lokale Kopie des Repositoriums kann genutzt werden um auch einem Server oder anderen Rechner eine Kopie anzulegen. Es können mehrere Server eingerichtet werden – die nachfolgenden Befehle gehen immer davon aus, dass Sie mit einem (GitHub) Server, genannt *origin* arbeiten.
 
 ### Clone
-Um an einem Repositorium mitzuarbeiten, muss zuerst eine Kopie des Repositoriums lokal abgelegt werden. Das tun Sie mit dem Befehl `git clone`:
+Um an einem Repositorium mitzuarbeiten, muss zuerst eine Kopie des Repositoriums lokal abgelegt werden. Das tun Sie mit dem Befehl `git clone`. Das folgende Beispiel klont die Vorlage `Book_Template`, etwa um sie zunächst kennenzulernen:
+```bash
+git clone https://github.com/quadriga-dk/Book_Template
+```
+Das Ergebnis dieses Befehls ist, dass ein Ordner `Book_Template` am aktuellen Ort im Dateisystem angelegt wird und in diesem eine vollständige Kopie des Repositoriums von Github abgelegt wird. Navigieren Sie ggf. vor ausführen des Befehls an eine andere Stelle im Dateisystem. Im Repositorium enthalten ist die gesamte Versionsgeschichte – d.h. alle Commits – sowie alle nötigen Informationen, um das lokale Repositorium nutzen zu können.
+
+Wollen Sie Ihre eigene OER anlegen, dann nutzen Sie bspw. die Template-Funktion auf GitHub. Diese erstellt ein neues Repositorium mit den Inhalten des `Book_Template` jedoch ohne die Versionsgeschichte des Template-Repositoriums. Dieses neue Repositorium klonen Sie anschließend auf die gleiche Weise – der Befehl bleibt gleich, nur die URL verweist auf Ihr Repositorium.
+
+Möchten Sie zu dieser Anleitung beitragen oder sie lokal nachvollziehen, dann klonen Sie das Repositorium der Anleitung:
 ```bash
 git clone https://github.com/quadriga-dk/QUADRIGA-OER-Manual
 ```
-Das Ergebnis dieses Befehls ist, dass ein Ordner `QUADRIGA-OER-Manual` am aktuellen Ort im Dateisystem angelegt wird und in diesem eine vollständige Kopie des Repositoriums von Github abgelegt wird. Navigieren Sie ggf. vor ausführen des Befehls an eine andere Stelle im Dateisystem. Im Repositorium enthalten ist die gesamte Versionsgeschichte – d.h. alle Commits – sowie alle nötigen Informationen, um das lokale Repositorium nutzen zu können.
-
-Wollen Sie Ihre eigene OER anlegen, dann nutzen Sie bspw. die Template-Funktion auf GitHub. Diese erstellt ein neues Repositorium mit den Inhalten des Templates jedoch ohne die Versionsgeschichte des Template-Repositoriums.
 
 ### Fetch
 Regelmäßig – insbesondere wenn Sie wissen, dass jemand anderes eine neue Version nach Github hochgeladen hat – sollten Sie `git fetch` nutzen um eine Kopie der Commits auf dem Server herunterzuladen. Ein `git fetch` ändert nichts an dem Commit in dem Sie gerade arbeiten und auch nichts an den Änderungen, die Sie lokal gerade vornehmen.
@@ -54,7 +59,7 @@ Während Sie lokal arbeiten ändert sich nicht automatisch der aktuelle Snapshot
 
 Um bspw. eine Änderung in dieser Datei für einen Commit vorzumerken würden Sie diesen Befehl nutzen:
 ```bash
-git add develop/git.md
+git add entwicklung/git.md
 ```
 
 Über `git status` sehen Sie dann, dass die Inhalte vorgemerkt sind. Sie können vorgemerkte Änderungen auch wieder entfernen – die Änderung bleibt lokal vorhanden – oder Änderungen ganz verwerfen und eine Datei auf den Zustand aus dem aktiven Commit zurücksetzen – hier droht Datenverlust!
@@ -85,9 +90,9 @@ Mit einem Branch können Sie einen Commit (bzw. eine Reihe von Commits) benennen
 
 ```{admonition} Übung
 :class: tip
-1. Gehen Sie auf die <a href="https://github.com/quadriga-dk/QUADRIGA-OER-Manual" class="external-link" target="_blank">Github-Seite des OER-Templates</a>.
+1. Gehen Sie auf die <a href="https://github.com/quadriga-dk/Book_Template" class="external-link" target="_blank">Github-Seite des OER-Templates (<code>Book_Template</code>)</a>.
 2. Stellen Sie sicher, dass Sie eingeloggt sind und wählen Sie dann *Fork > Create a new Fork*.
-3. Folgen Sie den Anweisungen um eine spezielle Kopie des Templates in Deinem Github-Account zu erstellen, die Fork genannt wird. Ein Fork ist verbunden mit dem sogenannten *Upstream* Repositorium und kann Änderungen aus diesem bei sich wieder Einpflegen und Vorschläge für Änderungen (sog. Pull Requests) anbieten.
+3. Folgen Sie den Anweisungen um eine spezielle Kopie des `Book_Template` in Ihrem Github-Account zu erstellen, die Fork genannt wird. Ein Fork ist verbunden mit dem sogenannten *Upstream* Repositorium und kann Änderungen aus diesem bei sich wieder Einpflegen und Vorschläge für Änderungen (sog. Pull Requests) anbieten.
 4. Nutzen Sie nun `git clone` um eine Kopie Ihres Forks auf Ihrer lokalen Festplatte zu erstellen.
 5. Erzeugen Sie einen Branch mit dem Namen `tutorial` und wechseln Sie in diesen.
 6. Erstellen Sie eine Markdown-Datei und schreiben Sie in diese etwas Text.

@@ -27,7 +27,7 @@ Sind die Accounts verknüpft, so sehen Sie eine Anleitung, wie ein Repositorium 
 ## Vorbereitung des Repositoriums
 Zenodo hat verschiedene Möglichkeiten, Metadaten aus dem Repositorium zu extrahieren und für den Eintrag auf Zenodo zu nutzen. In QUADRIGA nutzen wir die Datei `CITATION.cff`[^url-cff], welche es erlaubt die Metadaten im Repositorium zu definieren. Diese Datei wird auch von GitHub und anderen Werkzeugen genutzt, um Zitationsempfehlungen anzubieten.
 
-````{admonition} CITATION.cff dieses Buches
+````{admonition} CITATION.cff dieser Anleitung
 :class: hinweis, dropdown
 ```{literalinclude} ../CITATION.cff
 :language: yaml

@@ -2,6 +2,13 @@
 
 Die Ausführung des Buchs in der lokalen Umgebung bietet Ihnen maximale Kontrolle: Sie können offline arbeiten, auf alle Dateien zugreifen, Ihre eigenen Daten integrieren und das Material frei anpassen. Dies erfordert jedoch die Einrichtung der korrekten Umgebung (Python, R oder SPARQL je nach Kapitel).
 
+```{admonition} Welches Buch ist gemeint?
+:class: hinweis
+
+Wenn in diesem Kapitel von „diesem Buch“ die Rede ist, ist damit die jeweilige OER gemeint – also das Jupyter Book, das Sie mit dem <a href="https://github.com/quadriga-dk/Book_Template" class="external-link" target="_blank"><code>Book_Template</code></a> erstellen. Die Dateien dafür stammen aus dem `Book_Template`. Möchten Sie stattdessen diese Anleitung lokal nachvollziehen oder zu ihr beitragen, nutzen Sie das <a href="https://github.com/quadriga-dk/QUADRIGA-OER-Manual" class="external-link" target="_blank">Repositorium der Anleitung</a>.
+```
+
+
  ````{admonition} Hinweis
 :class: hinweis
 Bevor Sie beginnen, stellen Sie bitte sicher, dass Python auf Ihrem Computer installiert ist. Falls Python fehlt oder veraltet ist, folgen Sie bitte der Installationsanleitung [hier](python).
@@ -9,14 +16,20 @@ Bevor Sie beginnen, stellen Sie bitte sicher, dass Python auf Ihrem Computer ins
 
 ## Repository herunterladen
 
-Sie benötigen die Notebooks und Ressourcen aus dem Buch-Repository. Es gibt zwei Möglichkeiten, diese zu erhalten:
+Sie benötigen die Notebooks und Ressourcen aus dem Repository Ihres Buchs. Für Ihre eigene OER ist damit das Repositorium gemeint, das Sie aus dem `Book_Template` erstellt haben; für diese Anleitung ist es das Repositorium der Anleitung. Es gibt zwei Möglichkeiten, diese Dateien zu erhalten:
 
 1. **Download als ZIP**
-    - Gehen Sie zum GitHub-Repository dieses Buchs (rechts oben → GitHub-Symbol).
-    - Wählen Sie Code → Download ZIP.
+    - Für Ihre eigene OER: Legen Sie zunächst mit der GitHub-Funktion *Use this template* im <a href="https://github.com/quadriga-dk/Book_Template" class="external-link" target="_blank"><code>Book_Template</code></a> ein neues Repositorium an. Gehen Sie dann in diesem Repositorium auf Code → Download ZIP.
+    - Für diese Anleitung: Gehen Sie im <a href="https://github.com/quadriga-dk/QUADRIGA-OER-Manual" class="external-link" target="_blank">Repositorium der Anleitung</a> auf Code → Download ZIP.
     - Entpacken Sie die ZIP-Datei auf Ihrem Computer.
 
 2. **Oder über Git clone** (falls Sie Git bereits installiert haben)
+    - Für Ihre eigene OER: Klonen Sie das Repositorium, das Sie aus dem `Book_Template` erstellt haben. Wie das funktioniert, lesen Sie im Abschnitt [Git](git).
+    - Für diese Anleitung:
+      ```bash
+      git clone https://github.com/quadriga-dk/QUADRIGA-OER-Manual
+      ```
+
 
 ## Lokale Umgebung erstellen
 
@@ -82,7 +95,7 @@ Wenn Sie nur ein Kapitel ausprobieren möchten, ohne das vollständige Repositor
 Möglicherweise benötigen Sie zugehörige Datensätze oder Unterstützungsdateien – diese Einrichtung funktioniert am besten nur für eigenständige, in sich geschlossene Notebooks.
 ````
 
-In den meisten Fällen ist das Arbeiten mit dem vollständigen Repository der einfachste und verlässlichste Weg, um das Buch zu erkunden. Für einen ersten Einstieg können einzelne Notebooks dennoch hilfreich sein.
+In den meisten Fällen ist das Arbeiten mit dem vollständigen Repository der einfachste und verlässlichste Weg, um die eigene OER bzw. diese Anleitung zu erkunden. Für einen ersten Einstieg können einzelne Notebooks dennoch hilfreich sein.
 
 ````{admonition} Zusätzliche Materialien
 :class: seealso

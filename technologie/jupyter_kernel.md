@@ -37,7 +37,7 @@ Die Python-Einrichtung ist relativ unkompliziert, da der entsprechende Kernel be
 :end-before: "# R"
 ```
 
-Die Actions im Template nutzen die Datei `.python-version` in der die Python-Version definiert ist. Wollen Sie eine andere Python-Version nutzen, so können Sie diese in dieser Datei einheitlich ändern.
+Die Actions im `Book_Template` nutzen die Datei `.python-version` in der die Python-Version definiert ist. Wollen Sie eine andere Python-Version nutzen, so können Sie diese in dieser Datei einheitlich ändern.
 
 ### R Kernel
 
@@ -65,7 +65,7 @@ Die Installation des SPARQL-Kernels ist einfach, wenn Python bereits eingerichte
 
 ### Mehrere Kernels kombinieren
 
-Möchten Sie in einem Workflow mehrere Programmiersprachen unterstützen, so fügen Sie alle Einrichtungsschritte nacheinander ein. Entscheidend ist, dass sämtliche Kernel installiert sind, bevor der Build des Books gestartet wird. Nutzen Sie hierzu die Beispiele im vorliegenden Template.
+Möchten Sie in einem Workflow mehrere Programmiersprachen unterstützen, so fügen Sie alle Einrichtungsschritte nacheinander ein. Entscheidend ist, dass sämtliche Kernel installiert sind, bevor der Build des Books gestartet wird. Nutzen Sie hierzu die Beispiele im `Book_Template`.
 
 ### Kernels überprüfen
 
