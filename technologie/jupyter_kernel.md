@@ -1,7 +1,7 @@
 (jupyter_kernel)=
 # Jupyter Kernels
 
-Jupyter Kernels sind Programm-Umgebungen, die ein Jupyter Notebook interaktiv werden lässt. Die korrekte Konfiguration des Kernels ist für die lokale Entwicklung ebenso wie für die Nutzung in GitHub Actions (und anderen CI/CD-Umgebungen) relevant.
+Jupyter Kernels sind Programm-Umgebungen, die ein Jupyter Notebook interaktiv werden lassen. Die korrekte Konfiguration des Kernels ist für die lokale Entwicklung ebenso wie für die Nutzung in GitHub Actions (und anderen CI/CD-Umgebungen) relevant.
 
 ```{admonition} Was ist ein Jupyter Kernel?
 :class: hinweis
@@ -29,7 +29,7 @@ Diese Seite beschreibt die Kernel-Einrichtung für die Erstellung und den automa
 
 ## Kernels in GitHub Actions einrichten
 
-Wenn Sie Ihr Jupyter Book lokal erstellen müssen Sie auch die passenden Kernels lokal installieren. Der Python-Kernel wird bei einer Installation des Pakets `jupyter` mitinstalliert. Andere Kernels müssen Sie ggf. selbst nachinstallieren. Befolgen Sie dazu die Anweisungen im jeweiligen Book bzw. orientieren Sie sich an den Nachfolgenden Ausführungen. Eine GitHub Action startet normalerweise mit einer leeren Linux-Umgebung, sodass Sie die Kernels dort erst installieren und konfigurieren müssen.
+Wenn Sie Ihr Jupyter Book lokal erstellen müssen Sie auch die passenden Kernels lokal installieren. Der Python-Kernel wird bei einer Installation des Pakets `jupyter` mitinstalliert. Andere Kernels müssen Sie ggf. selbst nachinstallieren. Befolgen Sie dazu die Anweisungen im jeweiligen Book bzw. orientieren Sie sich an den nachfolgenden Ausführungen. Eine GitHub Action startet normalerweise mit einer leeren Linux-Umgebung, sodass Sie die Kernels dort erst installieren und konfigurieren müssen.
 
 Die nachfolgenden Code-Beispiele entstammen der Datei `.github/workflows/deploy-book-python-sparql-r.yml` welche die Installation und Konfiguration der drei Kernels vornimmt. Sie kann als Grundlage für spezielle Konfigurationen in Ihrem Book dienen.
 

@@ -1,6 +1,6 @@
 # Publikation auf Zenodo
 
-Zenodo[^url-zenodo] bietet eine Integration mit GitHub an, über die eine Publikation eines bestimmten Zustandes (`commit`) eine GitHub-Repositoriums möglich ist.
+Zenodo[^url-zenodo] bietet eine Integration mit GitHub an, über die eine Publikation eines bestimmten Zustandes (`commit`) eines GitHub-Repositoriums möglich ist.
 
 ```{figure} ../assets/technologie/zenodo_profil_menü.png
 ---
@@ -72,14 +72,14 @@ Releases in GitHub werden über einen `tag` spezifiziert. Diesen Tag können Sie
 
 Hinweise zur Erstellung von Tags in der GitHub-Releases-Unterseite finden Sie im nächsten Abschnitt.
 
-Die Option, Tags lokal zu erstellen, wird durch Schritte in der GitHub Action `update-metadata.yml` unterstützt und daher zu bevorzugen. Wenn Sie ein Tag erstellen und pushen, dann wird automatisch die Action ausgelöst. Diese passt, falls nötig die Metadaten-Felder `book-version` und `date-of-last-change` an und erstellt bei Änderung einen neuen Commit. Dann wird der Tag auf den neu-erstellten Commit verschoben.
+Die Option, Tags lokal zu erstellen, wird durch Schritte in der GitHub Action `update-metadata.yml` unterstützt und daher zu bevorzugen. Wenn Sie einen Tag erstellen und pushen, dann wird automatisch die Action ausgelöst. Diese passt, falls nötig die Metadaten-Felder `book-version` und `date-of-last-change` an und erstellt bei Änderung einen neuen Commit. Dann wird der Tag auf den neu-erstellten Commit verschoben.
 
 Schritt für Schritt gehen Sie so vor:
-1. Legen Sie das neue Tag an. Im Beispiel nutzen wir die Versionsnummer `0.1.2`.
+1. Legen Sie den neuen Tag an. Im Beispiel nutzen wir die Versionsnummer `0.1.2`.
    ```bash
    $ git tag v0.1.2
    ```
-2. "Veröffentlichen" Sie das Tag auf GitHub.
+2. "Veröffentlichen" Sie den Tag auf GitHub.
    ```bash
    $ git push origin tag v0.1.2
    ```
@@ -152,9 +152,9 @@ Seite zur Erstellung eines neuen Releases.
 ```
 
 ## Überprüfung der Metadaten in Zenodo
-Nach einem Release sollten die von Zenodo importierten Informationen überprüft werden. Ggf. müssen Sie in Zenodo und/oder in der Datei `CITATION.cff` angepasst werden. Änderungen in `CITATION.cff` werden mit dem nächsten Release-Import übernommen.
+Nach einem Release sollten die von Zenodo importierten Informationen überprüft werden. Ggf. müssen in Zenodo und/oder in der Datei `CITATION.cff` angepasst werden. Änderungen in `CITATION.cff` werden mit dem nächsten Release-Import übernommen.
 
-Zenodo stellt auch eine sogenannte Badge zur Verfügung. In den Einstellungen der GitHub-Integration wird diese neben dem Repositorium angezeigt. Klicken Sie auf diese, so öffnet sich eine Ansicht, aus der Sie bspw. Markdown-Code kopieren und Ihre `README.md` einfügen können.
+Zenodo stellt auch eine sogenannte Badge zur Verfügung. In den Einstellungen der GitHub-Integration wird diese neben dem Repositorium angezeigt. Klicken Sie auf diese, so öffnet sich eine Ansicht, aus der Sie bspw. Markdown-Code kopieren und in Ihre `README.md` einfügen können.
 
 [^url-cff]: <https://citation-file-format.github.io>
 [^url-git-tag]: <https://git-scm.com/docs/git-tag>

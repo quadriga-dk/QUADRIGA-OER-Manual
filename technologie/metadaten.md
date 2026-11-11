@@ -63,7 +63,7 @@ Eine Metadatenbeschreibung nach dem QUADRIGA Metadatenschema wird als valide
 betrachtet, wenn sie mindestens alle Pflichtfelder beinhaltet und technisch
 korrekt umgesetzt wurde. Das Metadatenschema ist in <a
     href="https://json-schema.org" target="_blank"
-    class="external-link">JSON-Schema</a> implementiert und zu finden in auf
+    class="external-link">JSON-Schema</a> implementiert und zu finden auf
 GitHub (<a href="https://github.com/quadriga-dk/quadriga-schema"
     target="_blank"
     class="external-link">https://github.com/quadriga-dk/quadriga-schema</a>)
@@ -418,7 +418,7 @@ werden.
 
 Eine Person kann entweder als einfache Zeichenkette oder als Mapping, das
 mindestens Schlüssel für Vor- und Nachname (`given-names`, `family-names`)
-enthält modelliert werden.
+enthält, modelliert werden.
 
 Es wird empfohlen eine <a href="https://orcid.org" target="_blank"
     class="external-link">ORCID</a> anzugeben. Zusätzlich können Rollen nach
@@ -541,7 +541,7 @@ Das Format ist definiert in <a
 Die Verarbeitung der Metadaten erfolgt in folgenden Schritten:
 
 1. **Quelldateien**: `metadata.yml` mit QUADRIGA-Schema (siehe
-   {ref}`metadata:schema-version`) sowie `_config.yml` und `_toc.yml` Im ersten
+   {ref}`metadata:schema-version`) sowie `_config.yml` und `_toc.yml`. Im ersten
    Schritt werden ggf. Informationen (bspw. Titel des Buchs, Inhaltsverzeichnis,
    …) in `metadata.yml` auf Basis der Jupyter Book Konfigurationsdateien
    aktualisiert.
