@@ -16,7 +16,7 @@ eingehen.
 
 ### Text
 
-Text, den sie in einer Markdown-Datei schreiben wird normalerweise direkt als
+Text, den Sie in einer Markdown-Datei schreiben, wird normalerweise direkt als
 Text ausgegeben.
 
 Um einen neuen Absatz zu beginnen muss in der Datei eine Leerzeile eingefügt
@@ -173,7 +173,7 @@ In Markdown können wann immer nötig auch HTML-Tags genutzt werden. Besonders
 hilfreich sind diese, wenn ein Zeilenumbruch (`<br>`) ohne neuen Absatz, ein
 Link mit spezifischen Parametern oder auch eine komplexe Tabelle eingefügt
 werden soll. Selbst wenn Markdown-Dialekte mit größerem Funktionsumfang wie
-MyST genutzt werden ist die Nutzung von HTML teilweise nötig um einen
+MyST genutzt werden, ist die Nutzung von HTML teilweise nötig um einen
 gewünschten Effekt zu erzielen.
 
 ## MyST

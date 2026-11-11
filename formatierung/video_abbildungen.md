@@ -2,7 +2,7 @@
 
 # Videos als Abbildungen
 
-Kurze Animationen – etwa eine Abfolge von Screenshots oder eine bewegte Grafik – werden häufig als animiertes GIF eingebunden. Eine MP4-Datei ist bei gleicher Qualität jedoch ca. 20-mal kleiner weshalb diese bevorzugt sind. QUADRIGA-Bücher stellen deshalb `{figure}`-Umgebungen, deren Ziel eine Videodatei ist, als HTML5-Video dar.
+Kurze Animationen – etwa eine Abfolge von Screenshots oder eine bewegte Grafik – werden häufig als animiertes GIF eingebunden. Eine MP4-Datei ist bei gleicher Qualität jedoch ca. 20-mal kleiner, weshalb diese bevorzugt sind. QUADRIGA-Bücher stellen deshalb `{figure}`-Umgebungen, deren Ziel eine Videodatei ist, als HTML5-Video dar.
 
 ## Verwendung
 

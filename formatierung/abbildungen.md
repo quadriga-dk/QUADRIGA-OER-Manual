@@ -3,7 +3,7 @@
 
 Jupyter Book bietet verschiedene Möglichkeiten an, um Abbildungen einzufügen. Für QUADRIGA empfehlen wir Ihnen die Nutzung einer `{figure}`-Umgebung.
 
-Diese Umgebung erlaubt eine Konfiguration bspw. der Breite der Abbildung und integriert eine Bildunterschrift. Wie im Beispiel unten (siehe {numref}`git-branches-development`) kann auch das Attribut `name` definiert werden, welches es erlaubt eine Referenzierung. Neben der Bildunterschrift kann auch eine Textuelle Beschreibung (oft bekannt als Alt-Text) im Attribut `alt` hinterlegt werden, welche bspw. im Screenreader vorgelesen wird.
+Diese Umgebung erlaubt eine Konfiguration bspw. der Breite der Abbildung und integriert eine Bildunterschrift. Wie im Beispiel unten (siehe {numref}`git-branches-development`) kann auch das Attribut `name` definiert werden, welches es erlaubt eine Referenzierung. Neben der Bildunterschrift kann auch eine textuelle Beschreibung (oft bekannt als Alt-Text) im Attribut `alt` hinterlegt werden, welche bspw. im Screenreader vorgelesen wird.
 ````
 ```{figure} ../assets/develop/git/Git_branches_ueber_die_Zeit.svg
 ---
