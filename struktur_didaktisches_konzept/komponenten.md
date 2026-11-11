@@ -24,7 +24,7 @@ Ein Ansatz für die Erstellung solcher interaktiven Übungen ist die Vervollstä
 - Vervollständigen teilweise gelöster Aufgaben
 - Selbstständiges Lösen kompletter Aufgaben
 
-Wenn die Übungen kein unmittelbares automatisiertes Feedback erlauben, wird den Lernenden ausgearbeitete und erklärte Lösungen (als Text, Skript oder Video) bereitgestellt.
+Wenn die Übungen kein unmittelbares automatisiertes Feedback erlauben, werden den Lernenden ausgearbeitete und erklärte Lösungen (als Text, Skript oder Video) bereitgestellt.
 
 Übungen können je nach Lernziel und Inhalt für einen oder mehrere der Zugangsmodi entwickelt werden:
 
@@ -39,7 +39,7 @@ Dieser Abschnitt enthält die wichtigsten Punkte des Kapitels sowie eine Reflexi
 Prozedurale Informationseinheiten erklären Lernenden, wie die Routineaspekte von Lernaufgaben auszuführen sind, und liefern How-to-Instruktionen (z.B. Anleitung zum Herunterladen oder Benutzen von Software). Da die Lernenden diese Informationen nicht auswendig lernen sollen, werden sie unmittelbar dort präsentiert, wo sie benötigt werden.
 
 ## Assessment
-Assessment
+
 Jede QUADRIGA OER enthält Assessment-Elemente zur Überprüfung des Lernfortschritts. Diese können je nach Lernziel und Inhalt für einen oder mehrere der Zugangsmodi entwickelt werden:
 
 - Book-Only Mode (Selbsttests mit Musterlösungen)

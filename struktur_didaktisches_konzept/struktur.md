@@ -1,4 +1,4 @@
-(inhaltliche_strukur)=
+(inhaltliche_struktur)=
 # Lernziele und Struktur
 
 Die Entwicklung von QUADRIGA OERs folgt dem Prinzip des "Constructive Alignment", bei dem Lernziele, Lernaktivitäten und Assessment aufeinander abgestimmt werden. Dieser Ansatz beginnt mit der Festlegung von Lernzielen und geht schrittweise zu Assessment und Lernaktivitäten über.
