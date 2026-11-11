@@ -39,7 +39,7 @@ Eine Demo-Version der Vorlage finden Sie unter <a
 - [ ] Fachliche Korrektheit überprüft
 - [ ] Code-Beispiele kommentiert und verständlich
 - [ ] Alle Fachbegriffe erklärt oder verlinkt
-- [ ] ggf. Interdisziplinäre Anwendbarkeit berücksichtigt
+- [ ] ggf. interdisziplinäre Anwendbarkeit berücksichtigt
 - [ ] ggf. Transfermöglichkeiten zu anderen Kontexten aufgezeigt
 
 ## Strukturelle Qualitätssicherung
@@ -62,7 +62,7 @@ Eine Demo-Version der Vorlage finden Sie unter <a
 
 ## `_config.yml`
 - [ ] Metadaten in der Konfigurationsdatei angepasst
-- [ ] GitHub/Gitlab/…-Verknüpfungen konfiguriert
+- [ ] GitHub/GitLab/…-Verknüpfungen konfiguriert
 - [ ] Integrationen (Issues, Binder, Colab, …) konfiguriert
 - [ ]
 
