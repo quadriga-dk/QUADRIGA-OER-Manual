@@ -35,8 +35,9 @@ description: Diese Anleitung führt in die Erstellung von Open Educational Resou
   didaktischen und technischen Anforderungen. Die Anleitung richtet sich vorrangig
   an OER-Erstellende. Die zugehörige Vorlage für neue OER ist das separat auf GitHub
   liegende <a href="https://github.com/quadriga-dk/Book_Template" target="_blank">Book_Template</a>;
-  aus ihm werden neue Repositorien erstellt und mit eigenen Inhalten gefüllt. Einzelne
-  (Unter-)Kapitel bieten zudem Erläuterungen zu Funktionalitäten für Lernende.
+  aus ihm werden neue Repositorien erstellt und mit eigenen Inhalten gefüllt. Die
+  Nutzung von QUADRIGA-OERs durch Lernende beschreibt das separate <a href="https://quadriga-dk.github.io/QUADRIGA-Learners-Manual/"
+  target="_blank">Learners Manual</a>.
 tableOfContents: '- Einstieg
 
   - Struktur und didaktisches Konzept
