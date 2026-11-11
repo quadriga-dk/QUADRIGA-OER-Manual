@@ -20,6 +20,13 @@ Ohne Kernels:
 
 Die am häufigsten verwendeten Kernels in unseren Jupyter Books sind der *IPython Kernel* für Python-Code, der *IR Kernel* für R-Code und der *SPARQL Kernel* für Datenbankabfragen mit der SPARQL-Abfragesprache zur Arbeit mit Wissensgraphen und semantischen Daten.
 
+```{admonition} Für Lernende
+:class: hinweis
+
+Diese Seite beschreibt die Kernel-Einrichtung für die Erstellung und den automatisierten Build einer OER. Wie Lernende eine lokale Python-Umgebung samt Kernel auf ihrem eigenen Rechner einrichten, steht im Learners Manual: <a href="https://quadriga-dk.github.io/QUADRIGA-Learners-Manual/nutzung/modi/lokal.html" class="external-link" target="_blank">Lokale Ausführung im Learners Manual</a>.
+```
+
+
 ## Kernels in GitHub Actions einrichten
 
 Wenn Sie Ihr Jupyter Book lokal erstellen müssen Sie auch die passenden Kernels lokal installieren. Der Python-Kernel wird bei einer Installation des Pakets `jupyter` mitinstalliert. Andere Kernels müssen Sie ggf. selbst nachinstallieren. Befolgen Sie dazu die Anweisungen im jeweiligen Book bzw. orientieren Sie sich an den Nachfolgenden Ausführungen. Eine GitHub Action startet normalerweise mit einer leeren Linux-Umgebung, sodass Sie die Kernels dort erst installieren und konfigurieren müssen.

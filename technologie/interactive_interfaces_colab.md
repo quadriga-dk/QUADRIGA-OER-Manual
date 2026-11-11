@@ -1,6 +1,6 @@
 # Interaktive Rechenumgebungen mit Google Colab
 
-Da Jupyter Books auf Jupyter-Notebooks oder ausführbaren Markdown-Dateien basieren, ist es möglich, über einen Launch-Button direkt in der Cloud interaktive Jupyter-Sessions zu starten. So können Inhalte in einer vertrauten Coding-Umgebung live ausprobiert werden. Im <a href="https://github.com/quadriga-dk/Book_Template" class="external-link" target="_blank"><code>Book_Template</code></a> ist Google Colab – eine kostenlose Cloud-Lösung für Jupyter Notebooks – bereits vorkonfiguriert; diese Anleitung erklärt, wie Sie diese interaktiven Funktionen nutzen und für Ihre eigene OER anpassen. Im Folgenden erläutern wir die wichtigsten Aspekte.
+Da Jupyter Books auf Jupyter-Notebooks oder ausführbaren Markdown-Dateien basieren, ist es möglich, über einen Launch-Button direkt in der Cloud interaktive Jupyter-Sessions zu starten. So können Leser:innen Inhalte in einer vertrauten Coding-Umgebung live ausprobieren, ohne etwas zu installieren. Im <a href="https://github.com/quadriga-dk/Book_Template" class="external-link" target="_blank"><code>Book_Template</code></a> ist Google Colab – eine kostenlose Cloud-Lösung für Jupyter Notebooks – bereits vorkonfiguriert. Diese Seite erklärt, wie Sie die Funktion für Ihre eigene OER aktivieren und was Sie dabei beachten sollten.
 
 
 ## Technische Konfiguration
@@ -12,46 +12,21 @@ launch_buttons:
     colab_url: https://colab.research.google.com
 ```
 
-Diese Konfiguration aktiviert die Google Colab Launch-Buttons für alle kompatiblen Notebooks in Ihrem Buch.
+Diese Konfiguration aktiviert die Google Colab Launch-Buttons für alle kompatiblen Notebooks in Ihrem Buch. Ob ein Kapitel einen Button erhält, hängt davon ab, ob es als ausführbares Notebook bzw. als ausführbare Markdown-Datei vorliegt.
 
+## Was Sie beim Aktivieren beachten sollten
 
-## Google Colab: Grundlegende Konzepte und Herausforderungen
+Der Launch-Button öffnet ausschließlich das ausgewählte Notebook in Google Colab – nicht den gesamten Projektordner. Für die Konzeption Ihrer OER bedeutet das:
 
-### 🚀 Launch Button
-Wenn Sie den "Launch > Colab" button betätigen, wird ausschließlich das entsprechende Notebook in Google Colab geöffnet - nicht der gesamte Projektordner. Dies ist ein wichtiger Aspekt, der bestimmte manuelle Anpassungen erforderlich macht.
+- **Dateien mitliefern:** Legen Sie alle Dateien, die ein Notebook benötigt (Daten, Bilder, Hilfsskripte), so ab, dass das Notebook sie selbst laden kann – zum Beispiel über einen Download aus dem öffentlichen GitHub-Repositorium oder über eine Setup-Zelle, die die Dateien beschafft.
+- **Setup-Zellen vorsehen:** Fassen Sie Installationen und das Laden von Daten in Zellen am Anfang des Notebooks zusammen. Leser:innen können das Notebook dann von oben nach unten ausführen, ohne manuell nachzuarbeiten.
+- **Pakete berücksichtigen:** Colab bringt viele Pakete bereits mit, aber nicht alle, die Ihre OER benötigt. Nennen Sie fehlende Pakete in einer Setup-Zelle (etwa `%pip install paketname`) und weisen Sie im Kapitel darauf hin.
+- **Funktion testen:** Prüfen Sie den Button in der gebauten Version Ihres Buches und führen Sie das Notebook einmal vollständig in Colab aus. So erkennen Sie fehlende Pakete oder Dateizugriffe, bevor Ihre Lernenden darauf stoßen.
+- **Geeignete Inhalte wählen:** Colab eignet sich für Notebooks, die ohne lokale Daten und ohne vertrauliche Daten auskommen. Für reproduzierbare Umgebungen mit exakt festgelegten Paketversionen ist Binder oder ein JupyterHub die bessere Wahl.
 
-### Häufige Herausforderungen und Lösungsansätze
+## Nutzung durch Lernende
 
-#### Fehlende Python-Pakete
-Wenn Sie eine Fehlermeldung über ein fehlendes Paket erhalten (beispielsweise `ModuleNotFoundError: No module named 'jupyterquiz'`), müssen Sie dieses nachinstallieren. Der Prozess ist wie folgt:
-
-- Fügen Sie folgenden Befehl am Anfang Ihres Notebooks ein:
-  ```python
-  !pip install package_name
-  ```
-  
-#### Zugriff auf Projektdateien
-Da Colab nur die einzelne Notebook-Datei öffnet, hat es keinen direkten Zugriff auf andere Dateien aus dem Projektordner. Hier bieten sich zwei einfache Lösungswege an:
-
-1. Für Dateien in einem öffentlichen GitHub-Repository:
-   ```python
-   !wget https://raw.githubusercontent.com/username/repository/main/ordner/dateiname
-   ```
-
-2. Direktes Hochladen von Dateien:
-   - Klicken Sie auf das Ordner-Symbol in der linken Seitenleiste
-   - Laden Sie Ihre Datei per Drag & Drop oder über den Upload-Button hoch
-
-
-```{admonition} Tipps
-:class: keypoint
-1. Führen Sie stets alle Setup-Zellen am Anfang des Notebooks aus
-2. Installieren Sie fehlende Pakete mit `!pip install`
-3. Laden Sie benötigte Dateien hoch, bevor Sie Zellen ausführen, die diese verwenden
-4. Sichern Sie wichtige Arbeitsergebnisse in Google Drive oder auf Ihrem lokalen Rechner
-```
-
-
+Wie Lernende ein Notebook in der Cloud öffnen und ausführen, fehlende Pakete nachinstallieren, auf Dateien zugreifen und ihre Ergebnisse speichern, ist ausführlich im Learners Manual beschrieben: <a href="https://quadriga-dk.github.io/QUADRIGA-Learners-Manual/nutzung/modi/cloud.html" class="external-link" target="_blank">Cloud-Ausführung im Learners Manual</a>. Verweisen Sie in Ihrer OER auf diese Seite, statt die Hinweise im Buch selbst zu wiederholen.
 
 ## Alternative Plattformen
 
@@ -61,12 +36,10 @@ Neben Google Colab existieren weitere Plattformen für interaktive Notebooks:
 
 - **JupyterHub**: Wird häufig von Universitäten und Organisationen für gehostete Notebooks eingesetzt
 
-Google Colab bietet für die meisten Lernenden den einfachsten Einstieg und wird daher in dieser Anleitung als primäre Plattform behandelt.
+Google Colab bietet für die meisten Lernenden den einfachsten Einstieg und wird daher in dieser Anleitung als primäre Plattform behandelt. Die Konfiguration der anderen Plattformen ist auf den jeweiligen Unterseiten beschrieben.
 
 
 ```{admonition} Zusätzliche Materialien
 :class: seealso
 Für detaillierte Informationen zur Konfiguration von Launch-Buttons in Jupyter Book empfehlen wir die offizielle <a href="https://jupyterbook.org/en/stable/interactive/launchbuttons.html" class="external-link" target="_blank">Jupyter Book Dokumentation zu Launch Buttons</a>. Diese enthält wichtige technische Details zur Integration verschiedener interaktiver Plattformen in Ihr eigenes Jupyter Book.
-
-Für die praktische Arbeit mit Google Colab empfehlen wir zusätzlich die  <a href="https://colab.research.google.com/notebooks/basic_features_overview.ipynb" class="external-link" target="_blank">Colab Dokumentation</a>.
 ```

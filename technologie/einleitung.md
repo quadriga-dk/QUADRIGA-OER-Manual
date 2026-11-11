@@ -40,3 +40,9 @@ Schnaitter, H., Samoilova, E. & Islam, L. (2026). Technologie In _QUADRIGA OERs:
 :start-after: "<!-- START: Technologie -->"
 :end-before: "<!-- END: Technologie -->"
 ```
+
+```{admonition} Für Lernende
+:class: hinweis
+
+Diese Anleitung richtet sich an OER-Erstellende. Wie man eine OER liest, in der Cloud ausführt oder lokal nutzt, steht in den **Lernhinweisen** (Learners Manual): <a href="https://quadriga-dk.github.io/QUADRIGA-Learners-Manual/" class="external-link" target="_blank">https://quadriga-dk.github.io/QUADRIGA-Learners-Manual/</a>.
+```

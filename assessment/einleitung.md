@@ -32,3 +32,10 @@ OER, die Sie mit dem <a
 erstellen.
 
 Für die Entwicklung von OER nach QUADRIGA-Empfehlungen sollten Sie die passenden Unterseiten für die verschiedenen verfügbaren Assessment-Formate durchlesen. Die theoretischen Überlegungen zum Assessmentkonzept sind grundlegend für das Verständnis gewisser Entscheidungen in der Implementierung jedoch nicht zwingend notwendig im "täglichen Geschäft" des OER-Schreibens.
+
+```{admonition} Für Lernende
+:class: hinweis
+
+Lernende, die die Assessment-Angebote einer QUADRIGA-OER nutzen möchten, finden eine eigene Seite dazu im Learners Manual: <a href="https://quadriga-dk.github.io/QUADRIGA-Learners-Manual/nutzung/assessment.html" class="external-link" target="_blank">Assessment im Learners Manual</a>. Verweisen Sie in Ihrer OER auf diese Seite.
+```
+

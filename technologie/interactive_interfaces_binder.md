@@ -1,21 +1,17 @@
 # Interaktive Rechenumgebungen mit Binder
 
-Binder erstellt reproduzierbare, interaktive Rechenumgebungen aus Git-Repositories. Im Gegensatz zu Google Colab repliziert Binder exakt die im Repository definierte Umgebung, inklusive aller Pakete und Versionen. Über "Launch (🚀) → Binder" erhalten Nutzer eine Live-Version der Notebooks mit allen Abhängigkeiten. Für Projekte ohne hohe CPU- oder RAM-Anforderungen kann der öffentliche BinderHub genutzt werden.
+Binder erstellt reproduzierbare, interaktive Rechenumgebungen aus Git-Repositories. Im Gegensatz zu Google Colab repliziert Binder exakt die im Repository definierte Umgebung, inklusive aller Pakete und Versionen. Über "Launch (🚀) → Binder" starten Leser:innen eine Live-Version der Notebooks mit allen Abhängigkeiten. Für Projekte ohne hohe CPU- oder RAM-Anforderungen kann der öffentliche BinderHub genutzt werden.
 
-## Wie Binder funktioniert
+## Wie Binder Ihr Repository verarbeitet
 
 **1. Analyse des Repositories**
-Binder untersucht beim Klick auf die "Launch (🚀) → Binder"-Option Ihr GitHub-Repository.
+Binder untersucht beim Start der Umgebung das GitHub-Repository, das in Ihrer `_config.yml` hinterlegt ist.
 
 **2. Erstellung der Umgebung**
-Basierend auf den gefundenen Konfigurationsdateien (z. B. requirements.txt, environment.yml oder Dockerfile) wird ein Docker-Image gebaut.
+Basierend auf den gefundenen Konfigurationsdateien (z. B. requirements.txt, environment.yml oder Dockerfile) wird ein Docker-Image gebaut. Dieser Build dauert beim ersten Mal einige Minuten und wird zwischengespeichert.
 
 **3. Start der Umgebung**
-Nutzer:innen erhalten Zugriff auf eine vollständige Jupyter-Oberfläche im Browser – inklusive aller Projektdateien und Abhängigkeiten.
-
-**4. Interaktive Sitzung**
-Alles läuft in der Cloud: Sie können die Notebooks live ausführen, allerdings endet die Sitzung nach einer gewissen Zeit der Inaktivität, und Änderungen werden nicht gespeichert.
-
+Leser:innen erhalten Zugriff auf eine vollständige Jupyter-Oberfläche im Browser – inklusive aller Projektdateien und Abhängigkeiten.
 
 
 ## Technische Konfiguration
@@ -133,18 +129,20 @@ Komplexe Systeminstallationen erforderlich sind, Sie mehrere Programmiersprachen
 Sie Standard-Python- oder R-Pakete nutzen, schnellere Build-Zeiten benötigen oder eine einfachere Wartung bevorzugen.
 ```
 
-## Häufige Herausforderungen
+## Häufige Herausforderungen beim Bereitstellen
 
-**Umgebungs-Build-Zeit**: Binder muss Ihre Umgebung beim ersten Mal erstellen und dabei alle Pakete aus Ihren Konfigurationsdateien installieren. Dies kann insbesondere bei R-Paketen zeitaufwendig sein.
+**Umgebungs-Build-Zeit**: Binder muss Ihre Umgebung beim ersten Mal erstellen und dabei alle Pakete aus Ihren Konfigurationsdateien installieren. Dies kann insbesondere bei R-Paketen zeitaufwendig sein. Testen Sie den Build vor der Veröffentlichung und rechnen Sie beim ersten Start mit Wartezeit für Ihre Leser:innen.
 
-**Session-Begrenzungen**: Binder-Sessions haben zeitliche Beschränkungen und werden nach typischerweise 1-2 Stunden Inaktivität beendet. Nutzer sollten ihre Arbeit regelmäßig herunterladen.
-
-**Datei-Persistenz**: Änderungen in Binder werden nicht in Ihr Repository zurückgespeichert. Alle Modifikationen gehen bei Session-Ende verloren.
+**Temporäre Sitzungen**: Binder-Sitzungen sind zeitlich begrenzt und werden nach einer Phase der Inaktivität beendet. Änderungen werden nicht in Ihr Repository zurückgespeichert. Weisen Sie Lernende in Ihrer OER darauf hin, Arbeitsergebnisse rechtzeitig herunterzuladen (siehe Abschnitt *Nutzung durch Lernende*).
 
 ```{admonition} Bewährte Praktiken
 :class: keypoint
 Beschränken Sie sich auf notwendige Pakete in Ihren Konfigurationsdateien. Verwenden Sie spezifische Versionsnummern für Reproduzierbarkeit und testen Sie Ihre Umgebung lokal vor der Bereitstellung.
 ```
+
+## Nutzung durch Lernende
+
+Wie Lernende ein Notebook über den Launch-Button öffnen, mit den Sitzungsgrenzen umgehen und ihre Ergebnisse sichern, steht im Learners Manual: <a href="https://quadriga-dk.github.io/QUADRIGA-Learners-Manual/nutzung/modi/cloud.html" class="external-link" target="_blank">Cloud-Ausführung im Learners Manual</a>. Verweisen Sie in Ihrer OER auf diese Seite, statt die Hinweise im Buch selbst zu wiederholen.
 
 ## Vergleich: Colab vs. Binder
 

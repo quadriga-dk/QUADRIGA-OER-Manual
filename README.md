@@ -17,6 +17,12 @@ Die Anleitung ist selbst **kein Template**. Wenn Sie eine eigene OER erstellen m
 
 Die Anleitung können Sie direkt im Browser lesen: <a href="https://quadriga-dk.github.io/QUADRIGA-OER-Manual/" class="external-link" target="_blank">https://quadriga-dk.github.io/QUADRIGA-OER-Manual/</a>. Die Vorlage können Sie sich in der Demo-Version ansehen: <a href="https://quadriga-dk.github.io/Book_Template/" class="external-link" target="_blank">https://quadriga-dk.github.io/Book_Template/</a>.
 
+## Verwandte Repositorien
+
+- **Anleitung** (dieses Repositorium): Erklärt, wie QUADRIGA-OERs mit Jupyter Book erstellt und gestaltet werden – <a href="https://quadriga-dk.github.io/QUADRIGA-OER-Manual/" class="external-link" target="_blank">https://quadriga-dk.github.io/QUADRIGA-OER-Manual/</a>
+- **Lernhinweise (Learners Manual):** Richtet sich an Lernende und beschreibt, wie eine QUADRIGA-OER gelesen, in der Cloud ausgeführt oder lokal genutzt wird – <a href="https://quadriga-dk.github.io/QUADRIGA-Learners-Manual/" class="external-link" target="_blank">https://quadriga-dk.github.io/QUADRIGA-Learners-Manual/</a> (<a href="https://github.com/quadriga-dk/QUADRIGA-Learners-Manual" class="external-link" target="_blank">quadriga-dk/QUADRIGA-Learners-Manual</a>)
+- **Vorlage (`Book_Template`):** Ausgangspunkt für eine neue OER – <a href="https://github.com/quadriga-dk/Book_Template" class="external-link" target="_blank">quadriga-dk/Book_Template</a> (<a href="https://quadriga-dk.github.io/Book_Template/" class="external-link" target="_blank">Demo</a>)
+
 ## Neue OER erstellen
 
 1. **`Book_Template` als neues Repositorium anlegen.** Erstellen Sie ein neues Repositorium mit dem Namen Ihrer OER – innerhalb des QUADRIGA-Projekts in der GitHub-Organisation `quadriga-dk`, andernfalls in Ihrem eigenen GitHub-Account. Nutzen Sie dazu die GitHub-Funktion "Use this template" im <a href="https://github.com/quadriga-dk/Book_Template" class="external-link" target="_blank"><code>Book_Template</code></a> oder laden Sie die Vorlage als `.zip`-Datei herunter und legen Sie die Inhalte in einem neuen Repositorium ab.
