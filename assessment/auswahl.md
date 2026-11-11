@@ -13,5 +13,5 @@ Wiederholung?
 Das Assessment kann durch Inhalt und Struktur auch bei der Erlangung der
 Lernziele unterstützen. Bei Pre-Assessment gesetzte Schwerpunkte suggerieren
 Wichtigkeit der Inhalte bei Lernenden. Assessment während der OER und
-Post-Assessment geben den Lerndenden Hinweise auf Inhalte die sie wiederholen
+Post-Assessment geben den Lernenden Hinweise auf Inhalte die sie wiederholen
 sollten.

@@ -1,8 +1,8 @@
-# Assessment ins Selbstlern-OER
+# Assessment in der Selbstlern-OER
 
 Assessment spielt in einer Selbstlern-OER eine besonders wichtige Rolle.
 Existiert eine Lehrperson, so kann diese das Feedback individuell an die
-jeweiligen Lernenden anpassen, dass die Rückmeldung selbst wieder
+jeweiligen Lernenden anpassen, sodass die Rückmeldung selbst wieder
 "lehrreich"[^orig-instructional] sein kann {cite}`{vgl.}kulhavy1977`.
 Selbstlern-Materialien müssen diese Funktion durch im Voraus erstellte
 Varianten im Ablauf oder in Erklärungen, Lösungshinweisen und Assessment
@@ -17,7 +17,7 @@ Assessment im Rahmen einer Selbstlern-OER erfüllen muss:
   mitbringen, um in die OER einzusteigen, ob sie eine einzelne Lektion
   verstanden haben und ob sie ein Lernziel der OER erreicht haben.
 
-    Wird das abschließende Assessment durch potentielle Lernenden erfolgreich
+    Wird das abschließende Assessment durch potenzielle Lernende erfolgreich
     absolviert ohne die Inhalte durchzuarbeiten, so kann dies auch als Indiz
     genutzt werden, dass die OER nicht durchgearbeitet werden muss, da kein
     nennenswerter Kompetenzgewinn zu erwarten ist.
