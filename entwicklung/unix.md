@@ -19,11 +19,11 @@ from quadriga import colors
 ```
 # Unix
 
-Viele der Kommandozeilenbefehle, die in dieser Anleitung genutzt werden, gehen von einer Unix-Umgebung aus. In einer solchen Umgebung gibt es eine sogenannte Shell – ein Programm, das textuell bedient wird und mit dem viele essentielle Tätigkeiten, wie das Anlegen und Verschieben von Ordnern, möglich sind. Eine Shell wird in einem sogenannten Terminal-Programm angezeigt, welches das grafische Fenster in Ihrem Betriebssystem darstellt und die Text Ein- und Ausgabe verwaltet. Diese Unterscheidung ist nur manchmal relevant und oft werden beide Namen – Shell und Terminal – gleichwertig benutzt, aber es sollte Ihnen klar sein, dass es einen Unterschied gibt.
+Viele der Kommandozeilenbefehle, die in dieser Anleitung genutzt werden, gehen von einer Unix-Umgebung aus. In einer solchen Umgebung gibt es eine sogenannte Shell – ein Programm, das textuell bedient wird und mit dem viele essentielle Tätigkeiten, wie das Anlegen und Verschieben von Ordnern, möglich sind. Eine Shell wird in einem sogenannten Terminal-Programm angezeigt, welches das grafische Fenster in Ihrem Betriebssystem darstellt und die Text-Ein- und -Ausgabe verwaltet. Diese Unterscheidung ist nur manchmal relevant und oft werden beide Namen – Shell und Terminal – gleichwertig benutzt, aber es sollte Ihnen klar sein, dass es einen Unterschied gibt.
 
 Die Befehle, die eine Shell ausführen kann können dabei Bestandteil der Shell sein – eine Shell beherbergt auch eine Programmiersprache – oder sie können andere Programme sein, die eine textuelle Bedienoberfläche haben. `git` ist ein solches Programm, das nicht Kernfunktionalität der Shell ist, sondern von dieser ausgeführt wird.
 
-Eine der Besonderheiten einer Shell ist, dass eingebaute Befehle und Programme gleichwertig miteinander verbunden werden können, sodass komplexe Abläufe durch die Kombination einfacher Befehlen definiert werden können.
+Eine der Besonderheiten einer Shell ist, dass eingebaute Befehle und Programme gleichwertig miteinander verbunden werden können, sodass komplexe Abläufe durch die Kombination einfacher Befehle definiert werden können.
 
 In Unix-basierten Betriebssystemen gibt es verschiedene Shell-Programme wie `bash`, `fish` oder `zsh`, welche von der "Ur-Shell" `sh` abstammen und diese erweitern. Unter Windows gibt es die Möglichkeit eine `bash` über das Programm *Git Bash* zu nutzen.
 
@@ -33,7 +33,7 @@ Unter Windows gibt es auch "nativ" ähnliche Programme mit der *Eingabeaufforder
 ## Navigation in der Shell
 
 ```{margin}
-Je nachdem, welche Shell Sie nutzen, können Sie deren Startkonfiguration mit Dateien wie `.profile`, `.bashrc`, `.zshrc`, … anpassen.Sehen Sie dazu in der Dokumentation Ihrer Shell nach.
+Je nachdem, welche Shell Sie nutzen, können Sie deren Startkonfiguration mit Dateien wie `.profile`, `.bashrc`, `.zshrc`, … anpassen. Sehen Sie dazu in der Dokumentation Ihrer Shell nach.
 ```
 Wenn Sie eine Shell öffnen dann werden ggf. ein paar Zeilen Text ausgegeben – das hängt von der Konfiguration des Shell-Starts ab. Dann wird der sogenannte Prompt ausgegeben. Dieser kann den aktuellen Ordner o.ä. anzeigen (und kann in der Konfigurationsdatei angepasst werden). Am Ende des Prompts werden oft die zwei Zeichen `$ `&nbsp;angezeigt. Nach der Zeichenkette `$ `&nbsp;geben Sie dann Ihre Befehle ein. In den weiteren Beispielen wird dieses Zeichen genutzt, um Zeilen mit Befehlen von Zeilen mit der Ausgabe der Programme – den Ergebnissen der Befehle – zu unterscheiden.
 
@@ -86,7 +86,7 @@ $ pwd
 `````
 
 ### `ls` – LiSt directory contents
-Den Inhalt eines Ordners können Sie Sich mit dem Befehl `ls` ausgeben lassen.
+Den Inhalt eines Ordners können Sie sich mit dem Befehl `ls` ausgeben lassen.
 ```{margin}
 Falls Sie die `.md`-Dateien nicht angelegt haben, wird Ihnen hier die `README.md` nicht angezeigt.
 ```
@@ -117,7 +117,7 @@ $ pwd
 ```
 ````{admonition} Lösung
 :class: solution, dropdown
-Wenn SIe nacheinander die Befehle eingeben sollte Ihr Terminal ungefähr so aussehen:
+Wenn Sie nacheinander die Befehle eingeben sollte Ihr Terminal ungefähr so aussehen:
 ```bash
 $ pwd
 /Users/Testnutzer/Documents/Tutorial
@@ -170,7 +170,7 @@ questions = \
       'feedback': "Eine absolute Pfadangabe geht jederzeit. Oft sind relative Pfade aber schneller zu tippen und sie funktionieren auch, wenn der Ordner Tutorials an einer anderen Stelle als im Ordner Documents liegt."}
     ]
   },
-  { 'question': "Sie befinden Sich im Ordner Tutorial. Wie können Sie Sich den Inhalt von 01_Technologie anzeigen lassen?",
+  { 'question': "Sie befinden sich im Ordner Tutorial. Wie können Sie sich den Inhalt von 01_Technologie anzeigen lassen?",
     'type': 'multiple_choice',
     'answers': [
     { 'answer': 'ls 01_Technologie',
@@ -184,7 +184,7 @@ questions = \
       'feedback': 'Richtig! Das ist die einfachste Variante.'},
     { 'answer': 'cd Markdown; ls 01_Technologie',
       'correct': True,
-      'feedback': "Das funktioniert und gibt das richtige Ergebnis aus. Allerdings haben Sie sich dann \"bewegt\" und sind jetzt im Ordner Markdown. Falls Sie das nicht wollen, müssten Sie Sich wieder einen Ordner nach oben bewegen."},
+      'feedback': "Das funktioniert und gibt das richtige Ergebnis aus. Allerdings haben Sie sich dann \"bewegt\" und sind jetzt im Ordner Markdown. Falls Sie das nicht wollen, müssten Sie sich wieder einen Ordner nach oben bewegen."},
     { 'answer': 'ls -R Markdown',
       'correct': True,
       'feedback': "Sie als Mensch finden so den Inhalt des Ordners 01_Technologie heraus. Allerdings wird Ihnen noch mehr ausgegeben. Wenn Sie die Ausgabe des Befehls mit einem Programm weiterbearbeiten wollten, dann wäre es keine gute Idee, diesen Befehl zu nutzen."}
