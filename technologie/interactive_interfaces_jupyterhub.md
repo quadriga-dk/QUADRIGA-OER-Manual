@@ -28,19 +28,9 @@ launch_buttons:
 Wenn Sie bereits Colab oder Binder verwenden, ergänzen Sie `jupyterhub_url` im vorhandenen Abschnitt `launch_buttons` und erstellen Sie das Buch danach neu.
 
 
-## Wie JupyterHub funktioniert
+## Wie JupyterHub das Buch bereitstellt
 
-**1. Anmeldung**
-Nutzer:innen klicken im Buch auf "Launch (🚀) → JupyterHub" und melden sich auf dem Hub an.
-
-**2. Persönliche Umgebung**
-JupyterHub startet für jede Person eine eigene Jupyter-Sitzung auf dem Server.
-
-**3. Dateien laden**
-Die Dateien Ihres Buches werden automatisch aus Ihrem Git-Repository in Ihre Umgebung kopiert.
-
-**4. Interaktive Sitzung**
-Das Notebook öffnet sich im Browser und kann ausgeführt werden. Alles läuft auf dem Server, nicht auf dem eigenen Rechner.
+Beim Klick auf "Launch (🚀) → JupyterHub" öffnet sich die jeweilige Seite als Notebook in einer eigenen Jupyter-Sitzung auf dem Server. Die Dateien Ihres Buches werden dabei über `nbgitpuller` aus Ihrem Git-Repository in die Umgebung kopiert; alles läuft auf dem Server, nicht auf dem Rechner der Leser:innen. Für Sie als Bereitsteller:innen bedeutet das: Die Umgebung muss die Pakete und Kernel enthalten, die Ihre Notebooks brauchen, und das Repository muss öffentlich erreichbar sein.
 
 
 ## JupyterHub bereitstellen
@@ -73,17 +63,21 @@ Damit der Launch-Button funktioniert, müssen auf dem JupyterHub zwei Erweiterun
 - `jupytext` (Version 0.16 oder neuer): Diese Erweiterung brauchen Sie nur, wenn Ihre Notebooks als ausführbare Markdown-Dateien (MyST Markdown) vorliegen. Sie sorgt dafür, dass der Server diese Dateien als Notebooks öffnet.
 ```
 
-## Häufige Herausforderungen
+## Häufige Herausforderungen beim Bereitstellen
 
-**Zugang und Anmeldung**: Nur Personen mit einem Konto auf dem Hub können Notebooks starten. Prüfen Sie vorab, wer Zugang erhält und ob ein VPN oder das Hochschulnetz nötig ist.
+**Zugang und Anmeldung**: Nur Personen mit einem Konto auf dem Hub können Notebooks starten. Klären Sie vorab mit der IT-Administration, wer Zugang erhält und ob ein VPN oder das Hochschulnetz nötig ist, und kommunizieren Sie dies an Ihre Lernenden.
 
 **Notebook lässt sich nicht öffnen**: Erscheint nach dem Klick auf den Button eine Fehlerseite, ist oft `nbgitpuller` nicht installiert. Öffnet sich eine MyST-Markdown-Datei als reiner Text, fehlt meist `jupytext`. Prüfen Sie außerdem Branch und `path_to_book` in der `_config.yml`.
 
-**Fehlende Pakete**: Der Hub nutzt nicht automatisch Ihre `requirements.txt`. Fehlt ein Paket, können Sie es in vielen Fällen direkt im Notebook installieren, zum Beispiel mit `%pip install paketname`. Ob das Paket nach dem Ende der Sitzung noch vorhanden ist, hängt vom Hub ab. Fragen Sie bei der IT-Administration nach, ob Sie Pakete selbst installieren dürfen. Besser ist es, ihr die Liste der benötigten Pakete zu geben, damit sie von Anfang an vorhanden sind.
+**Fehlende Pakete**: Der Hub nutzt nicht automatisch Ihre `requirements.txt`. Geben Sie der IT-Administration die Liste der benötigten Pakete, damit sie von Anfang an vorhanden sind. Ob Lernende fehlende Pakete selbst nachinstallieren dürfen und ob diese erhalten bleiben, hängt vom Hub ab – klären Sie das vorab.
 
-**Begrenzte Ressourcen**: Alle Nutzer:innen teilen sich die Hardware des Servers. Wenn ein Notebook sehr viel Arbeitsspeicher braucht, kann die Sitzung beendet werden. Planen Sie bei Workshops mit vielen Teilnehmenden Zeit für anspruchsvolle Berechnungen ein.
+**Begrenzte Ressourcen**: Alle Nutzer:innen teilen sich die Hardware des Servers. Wenn ein Notebook sehr viel Arbeitsspeicher braucht, kann die Sitzung beendet werden. Prüfen Sie, ob Ihre Notebooks in die Grenzen pro Person passen, und planen Sie bei Workshops mit vielen Teilnehmenden Zeit für anspruchsvolle Berechnungen ein.
 
-**Speichern**: Sie arbeiten mit einer persönlichen Kopie der Dateien. Änderungen werden nicht automatisch an GitHub übertragen. Ob Ihre Dateien nach der Sitzung erhalten bleiben, hängt von der Konfiguration des Hubs ab.
+**Speichern**: Ihre Lernenden arbeiten mit einer persönlichen Kopie der Dateien; Änderungen werden nicht automatisch an GitHub übertragen. Ob Dateien nach der Sitzung erhalten bleiben, hängt von der Konfiguration des Hubs ab. Informieren Sie Ihre Lernenden entsprechend.
+
+## Nutzung durch Lernende
+
+Wie Lernende den Launch-Button nutzen, sich anmelden, fehlende Pakete behandeln und ihre Ergebnisse sichern, steht im Learners Manual: <a href="https://quadriga-dk.github.io/QUADRIGA-Learners-Manual/nutzung/modi/cloud.html" class="external-link" target="_blank">Cloud-Ausführung im Learners Manual</a>. Verweisen Sie in Ihrer OER auf diese Seite, statt die Hinweise im Buch selbst zu wiederholen.
 
 
 ## Vergleich: Colab, Binder und JupyterHub

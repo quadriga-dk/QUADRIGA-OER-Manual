@@ -58,9 +58,13 @@ width: 70%
 Aus dem Book_Template entstehen QUADRIGA-OERs, die mit Jupyter Book als Website gebaut werden.
 ```
 
+## Für Lernende
+
+Diese Anleitung ist für OER-Erstellende geschrieben. Wer eine fertige QUADRIGA-OER zum Lernen nutzt, braucht andere Hinweise: Wie man eine OER liest, in der Cloud ausführt oder lokal nutzt und wie man die Assessment-Angebote verwendet, steht in den **Lernhinweisen** (Learners Manual) unter <a href="https://quadriga-dk.github.io/QUADRIGA-Learners-Manual/" class="external-link" target="_blank">https://quadriga-dk.github.io/QUADRIGA-Learners-Manual/</a>. Verweisen Sie in Ihrer eigenen OER auf diese Seite, damit Lernende die passenden Nutzungshinweise finden.
+
 ## Zielgruppe
 
-Diese Anleitung richtet sich an Personen, die QUADRIGA-OERs mit dem Book_Template erstellen möchten. Einzelne Kapitel können jedoch auch für Lernende von Relevanz sein, beispielsweise hinsichtlich der lokalen Nutzung von Jupyter Books auf eigenen Geräten oder der Anwendung von Google Colab.
+Diese Anleitung richtet sich an Personen, die QUADRIGA-OERs mit dem Book_Template erstellen möchten. Lernende, die eine fertige OER nutzen möchten, finden die passenden Hinweise in den separaten **Lernhinweisen** (Learners Manual, siehe Abschnitt *Für Lernende*).
 
 ## Aufbau dieser Anleitung
 
