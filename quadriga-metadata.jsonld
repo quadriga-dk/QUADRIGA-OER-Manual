@@ -278,7 +278,7 @@
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Kenntnis, Auswahl und Nutzung spezifischer Auszeichungs- und Formatierungsoptionen",
+          "targetName": "Kenntnis, Auswahl und Nutzung spezifischer Auszeichnungs- und Formatierungsoptionen",
           "educationalFramework": "QUADRIGA Competency Framework",
           "targetDescription": "Competency: Orientierungswissen | Bloom's: 3 Anwenden | Data Flow: übergreifend"
         }
