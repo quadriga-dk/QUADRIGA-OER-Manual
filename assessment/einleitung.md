@@ -24,7 +24,7 @@ Mit Ihren Rückmeldungen können wir diese Anleitung gezielt verbessern.
 ```
 
 In diesem Kapitel werden theoretische Überlegungen zum Assessment von
-Selbstlernkursen im Rahmen von QUADRIGA angestellt und dann Beispiel für die
+Selbstlernkursen im Rahmen von QUADRIGA angestellt und dann Beispiele für die
 Umsetzung in den QUADRIGA OER gegeben. Die beschriebenen Formate gelten für die
 OER, die Sie mit dem <a
     href="https://github.com/quadriga-dk/Book_Template"

@@ -11,7 +11,7 @@ sind sie stark selbst-motiviert und besitzen bereits eine Expertise in ihrer
 Kerndisziplin. Typischerweise besitzen sie jedoch nur vereinzelte und
 grundlegende Kompetenzen in der Domäne der Datenkompetenzen. Das bedeutet, dass
 bei fachspezifischen Inhalten grundlegende Kompetenz vorausgesetzt werden kann,
-wärend bei Inhalten zur Datenkompetenzentwicklung wenige bis keine
+während bei Inhalten zur Datenkompetenzentwicklung wenige bis keine
 Vorkenntnisse die Norm sind. Baut eine OER in diesem Bereich auf Vorkenntnisse,
 so müssen diese explizit genannt werden und es gibt idealerweise Hinweise auf
 andere Inhalte um diese Vorkenntnisse zu erlangen bzw. deren Stand zu
@@ -19,7 +19,7 @@ andere Inhalte um diese Vorkenntnisse zu erlangen bzw. deren Stand zu
 sein, so sollten ähnliche Verweise und Hinweise auch bei fachspezifischen
 Voraussetzungen genannt werden.
 
-Die Zielgruppe lernt viel autodidaktisch oder in kleinen Gruppen – bpsw. mit
+Die Zielgruppe lernt viel autodidaktisch oder in kleinen Gruppen – bspw. mit
 Kolleg:innen. Durch Lehrpersonal angeleitetes und unterstütztes Lernen findet
 vergleichsweise selten und dann meistens in kürzeren Workshop-artigen Formaten
 und weniger in semesterlangen Kursen statt. Wird in Gruppen gelernt, so ist

@@ -4,7 +4,7 @@ In diesem Unterkapitel finden Sie konkrete Anleitungen/Beispiele für die Nutzun
     href="https://github.com/quadriga-dk/Book_Template"
     class="external-link" target="_blank"><code>Book_Template</code></a> und lassen sich in Ihre eigene OER übernehmen.
 
-- Single- und Multiple-Choice- sowie Exact-Match-Assessments werden JupyterQuiz
+- Single- und Multiple-Choice- sowie Exact-Match-Assessments werden in JupyterQuiz
   umgesetzt ([Anleitung](./umsetzung/jupyterquiz.ipynb)).
 - Für Reihungs- und Zuordnungsaufgaben hat QUADRIGA eine eigene Lösung
   entwickelt (Anleitung folgt).

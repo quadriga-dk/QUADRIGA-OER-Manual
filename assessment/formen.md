@@ -15,7 +15,7 @@ In QUADRIGA OER werden vorrangig folgende Assessment-Formate genutzt.
     MC ohne richtige Antwort ist nutzlos, weil das "Nichts-Tun" zu einem
     korrekten Ergebnis führt und damit die Funktion der Rückmeldung fehlt.
 
-    Jede Frage und deren Antwortmöglichkeiten muss mit einer/mehreren
+    Jede Frage und deren Antwortmöglichkeiten müssen mit einer/mehreren
     Erklärungen verbunden werden, die erläutern, warum die richtigen
     Antwortmöglichkeiten richtig und die falschen Antwortmöglichkeiten falsch
     sind. Dieses direkte Feedback hilft Lernenden beim Einordnen ihrer Antwort:
@@ -29,7 +29,7 @@ In QUADRIGA OER werden vorrangig folgende Assessment-Formate genutzt.
     Fragetyp geprüft werden. Eine Erklärung für die korrekte Antwort und ggf.
     schwierige Entscheidungen der Anordnung ist verpflichtend.
 
-    Gibt es mehrere mögliche, gleich oder änlich korrekte Reihenfolgen /
+    Gibt es mehrere mögliche, gleich oder ähnlich korrekte Reihenfolgen /
     Strukturen, so sollte dieser Fragentyp gemieden werden.
 
 - **Verknüpfung von Elementen ($1:1$, $1:n$, oder $n:m$)**
@@ -76,8 +76,8 @@ In QUADRIGA OER werden vorrangig folgende Assessment-Formate genutzt.
     zwingend, dass die vorgegebenen Testfunktionen nützliche Hinweise zur
     Korrektur der eigenen Funktion liefern. Dieser Aufgabentyp funktioniert
     nur, wenn Lernende beliebig oft die Testfunktionen auf ihre
-    Antwort-Funktion anwenden können. Es müssen nicht zwingend gesonderten,
-    geheimen Testfunktionen zur Überprüfung einer "Abgabe" existieren.
+    Antwort-Funktion anwenden können. Es müssen nicht zwingend gesonderte,
+    geheime Testfunktionen zur Überprüfung einer "Abgabe" existieren.
 
 - **Programmierung/Konfiguration einer Datenverarbeitungs-Pipeline**
 
@@ -91,8 +91,8 @@ In QUADRIGA OER werden vorrangig folgende Assessment-Formate genutzt.
     Aufgabe fordert zwingend, dass die vorgegebenen Testfunktionen nützliche
     Hinweise zur Korrektur der eigenen Funktion liefern. Dieser Aufgabentyp
     funktioniert nur, wenn Lernende beliebig oft die Testfunktionen auf ihre
-    Antwort-Funktion anwenden können. Es müssen nicht zwingend gesonderten,
-    geheimen Testfunktionen zur Überprüfung einer "Abgabe" existieren.
+    Antwort-Funktion anwenden können. Es müssen nicht zwingend gesonderte,
+    geheime Testfunktionen zur Überprüfung einer "Abgabe" existieren.
 
 - **Self-Assessment-Aufgaben**
 
@@ -119,7 +119,7 @@ In QUADRIGA OER werden vorrangig folgende Assessment-Formate genutzt.
     nicht "nur" die Erkennung von korrekten Antworten oder das
     In-Beziehung-Setzen von vorgegebener Information.
 
-**Weiter Formate**
+**Weitere Formate**
 
 Eine Möglichkeit, die Produktion von Wissen zu testen ist, die Lernenden zuerst
 auf eine Frage selbst eine Antwort formulieren zu lassen und dann (auf einer
@@ -138,7 +138,7 @@ falsche Antwortmöglichkeiten möglichst eine Begründung beinhalten sollten, di
 die Lernenden unterstützt in der Herausarbeitung der richtigen
 Antwort(möglichkeit).
 
-Portfolios würden in ihrer Struktur ideal zur Fallstudienbasierten Aufbereitung
+Portfolios würden in ihrer Struktur ideal zur fallstudienbasierten Aufbereitung
 in den QUADRIGA-OER passen, jedoch sind sie im Rahmen des QUADRIGA Projekts
 leider nicht umsetzbar. In einer Workshop-/Lehrveranstaltungssituation bieten
 sie sich als gute Form an, die eine Mischung aus formativem und summativem
