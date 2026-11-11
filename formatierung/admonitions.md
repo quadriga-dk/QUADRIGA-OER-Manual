@@ -18,11 +18,11 @@ Um Übungen kennzuzeichnen wird dieser Admonition-Typ genutzt.
 `````
 
 
-`````{admonition}  Lösungen
+`````{admonition} Lösungen
 :class: solution, dropdown
 Lösungen werden mit diesem Admonition-Typ gekennzeichnet. Sie können ggf. auch innerhalb einer Übungs-Admonition dargestellt werden.
 ````
-```{admonition}  Lösungen
+```{admonition} Lösungen
 :class: solution, dropdown
 Lösungen werden mit diesem Admonition-Typ gekennzeichnet. Sie können ggf. auch innerhalb einer Übungs-Admonition dargestellt werden.
 ```
@@ -88,7 +88,7 @@ Geschichten, Fallstudien oder narrative Beispiele werden mit diesem Admonition-T
 :class: seealso
 Weiterführende Literaturhinweise oder zusätzliche (externe) Materialien werden so gekennzeichnet.
 
-Verweise können hierbei auf andere Bestandteile der OER, andere QUADRIGA OER oder auch Inhalte dritter zeigen. Links sollten dabei immer in einem neuen Tab öffnen und falls sie auf externe Seiten verweisen mit der CSS-Klasse `.external-link` markiert werden.
+Verweise können hierbei auf andere Bestandteile der OER, andere QUADRIGA OER oder auch Inhalte dritter zeigen. Links sollten dabei immer in einem neuen Tab geöffnet werden und falls sie auf externe Seiten verweisen mit der CSS-Klasse `.external-link` markiert werden.
 ````html
 <a href="https://example.com" class="external-link" target="_blank">Linktext</a>
 ````
@@ -129,7 +129,7 @@ Informiert Lernende über den voraussichtlichen Zeitaufwand für Abschnitte oder
     year = {2026},
 }
 ```
-Schnaitter, H., Samoilova, E. & Islam, L. (2026). Technologie In _QUADRIGA OERs: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational Resources: Anleitung._ https://quadriga-dk.github.io/QUADRIGA-OER-Manual/technologie/einführung.html
+Schnaitter, H., Samoilova, E. & Islam, L. (2026). Technologie. In _QUADRIGA OERs: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational Resources: Anleitung._ https://quadriga-dk.github.io/QUADRIGA-OER-Manual/technologie/einführung.html
 
 `````
 ````{admonition} Zitierhinweis
