@@ -48,7 +48,7 @@
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/QUADRIGA-OER-Manual/#chapter_2_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: Orientierungswissen | Bloom's: 3 Anwenden | Data Flow: übergreifend</schema:targetDescription>
-    <schema:targetName>Kenntnis, Auswahl und Nutzung spezifischer Auszeichungs- und Formatierungsoptionen</schema:targetName>
+    <schema:targetName>Kenntnis, Auswahl und Nutzung spezifischer Auszeichnungs- und Formatierungsoptionen</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/QUADRIGA-OER-Manual/#chapter_3_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
