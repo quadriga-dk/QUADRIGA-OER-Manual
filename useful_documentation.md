@@ -23,7 +23,7 @@ Sollen Pakete auf die aktuellste Version gebracht werden, auch wenn dies den Vor
 (venv)$ pip install -U jupyter-book
 ```
 
-Sollen alle Pakete aktualisiert werden geht dies mit den nachfolgenden Befehl:
+Sollen alle Pakete aktualisiert werden geht dies mit dem nachfolgenden Befehl:
 
 ```bash
 (venv)$ cat requirements.txt | cut -f1 -d= | xargs pip install -U
