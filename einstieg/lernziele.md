@@ -33,7 +33,7 @@ Die folgenden Lernziele beschreiben, was Sie nach der Lektüre dieser Anleitung 
 <!-- learning-goal: Sie können Inhalte nach den Empfehlungen von QUADRIGA schreiben und formatieren. -->
 
 1. Kenntnis, Auswahl und Nutzung verschiedener möglicher Dateiformate und Programmiersprachen<!-- competency: Orientierungswissen | bloom: 3 Anwenden -->
-2. Kenntnis, Auswahl und Nutzung spezifischer Auszeichungs- und Formatierungsoptionen<!-- competency: Orientierungswissen | bloom: 3 Anwenden -->
+2. Kenntnis, Auswahl und Nutzung spezifischer Auszeichnungs- und Formatierungsoptionen<!-- competency: Orientierungswissen | bloom: 3 Anwenden -->
 
 ```
 <!-- END: Formatierungs- und Darstellungsmöglichkeiten -->
