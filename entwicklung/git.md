@@ -18,26 +18,26 @@ Es gibt viele Ressourcen rund um Git – die meisten sind nur auf Englisch verf�
 ## Installation
 Wenn Sie noch kein Git installiert haben, dann finden Sie die Installationsdateien bspw. auf der <a href="https://git-scm.com/downloads" class="external-link" target="_blank">Git Website</a>. Laden Sie dort die passende Version für Ihr Betriebssystem herunter bzw. folgen Sie den Anleitungen.
 
-Unter Windows wird neben Git selbst noch das Programm *Git Bash* installiert, welches es Ihnen ermöglicht Git über die Kommandozeite zu nutzen, als hätten Sie ein UNIX-artiges Betriebssystem wie Linux oder macOS. Alle unten angegebenen Befehle gehen davon aus, dass Sie diese unter Windows im Programm Git Bash eintippen.
+Unter Windows wird neben Git selbst noch das Programm *Git Bash* installiert, welches es Ihnen ermöglicht Git über die Kommandozeile zu nutzen, als hätten Sie ein UNIX-artiges Betriebssystem wie Linux oder macOS. Alle unten angegebenen Befehle gehen davon aus, dass Sie diese unter Windows im Programm Git Bash eintippen.
 
-## Github-Account
-Um Git für die Erstellung der QUADRIGA-OER zu nutzen wird ein Github-Account benötigt. Diesen können Sie auf <a href="https://github.com" class="external-link" target="_blank">github.com</a> anlegen.
+## GitHub-Account
+Um Git für die Erstellung der QUADRIGA-OER zu nutzen wird ein GitHub-Account benötigt. Diesen können Sie auf <a href="https://github.com" class="external-link" target="_blank">github.com</a> anlegen.
 
-Um Änderungen an den QUADRIGA OER vornehmen zu können sollte der Account der Organisation <a href="https://github.com/quadriga-dk" class="external-link" target="_blank">quadriga-dk</a> zugeordnet werden. Die Arbeit über Pull-Requests ist auch möglich und was insbesondere für Externe Mitarbeiter:innen bevorzugt wird.
+Um Änderungen an den QUADRIGA OER vornehmen zu können sollte der Account der Organisation <a href="https://github.com/quadriga-dk" class="external-link" target="_blank">quadriga-dk</a> zugeordnet werden. Die Arbeit über Pull-Requests ist auch möglich und wird insbesondere für externe Mitarbeiter:innen bevorzugt.
 
 Nutzen Sie diese Anleitung für die Erstellung von OER außerhalb des QUADRIGA-Projekts, so benötigen Sie keine zusätzlichen Rechte. Für Ihre eigene OER verwenden Sie die Vorlage <a href="https://github.com/quadriga-dk/Book_Template" class="external-link" target="_blank"><code>Book_Template</code></a>. Diese Anleitung selbst ist kein Template und sollte nicht als Ausgangspunkt für ein neues Buch kopiert werden.
 
 ## Die wichtigsten Git Befehle
 Git speichert Abbilder/Snapshots einer Ordnerstruktur – eines sogenannten Repositoriums. Ein Snapshot wird in Git als Commit bezeichnet. Ein Commit verweist auf alle Dateien und deren Inhalte zu einem bestimmten (logischen) Zeitpunkt.
 
-Ein Git Repositorium auf einem Server wie Github oder lokal beinhaltet die gleichen Inhalte und Konfigurationsdateien. Jede lokale Kopie des Repositoriums kann genutzt werden um auch einem Server oder anderen Rechner eine Kopie anzulegen. Es können mehrere Server eingerichtet werden – die nachfolgenden Befehle gehen immer davon aus, dass Sie mit einem (GitHub) Server, genannt *origin* arbeiten.
+Ein Git Repositorium auf einem Server wie GitHub oder lokal beinhaltet die gleichen Inhalte und Konfigurationsdateien. Jede lokale Kopie des Repositoriums kann genutzt werden um auch auf einem Server oder anderen Rechner eine Kopie anzulegen. Es können mehrere Server eingerichtet werden – die nachfolgenden Befehle gehen immer davon aus, dass Sie mit einem (GitHub) Server, genannt *origin* arbeiten.
 
 ### Clone
 Um an einem Repositorium mitzuarbeiten, muss zuerst eine Kopie des Repositoriums lokal abgelegt werden. Das tun Sie mit dem Befehl `git clone`. Das folgende Beispiel klont die Vorlage `Book_Template`, etwa um sie zunächst kennenzulernen:
 ```bash
 git clone https://github.com/quadriga-dk/Book_Template
 ```
-Das Ergebnis dieses Befehls ist, dass ein Ordner `Book_Template` am aktuellen Ort im Dateisystem angelegt wird und in diesem eine vollständige Kopie des Repositoriums von Github abgelegt wird. Navigieren Sie ggf. vor ausführen des Befehls an eine andere Stelle im Dateisystem. Im Repositorium enthalten ist die gesamte Versionsgeschichte – d.h. alle Commits – sowie alle nötigen Informationen, um das lokale Repositorium nutzen zu können.
+Das Ergebnis dieses Befehls ist, dass ein Ordner `Book_Template` am aktuellen Ort im Dateisystem angelegt wird und in diesem eine vollständige Kopie des Repositoriums von GitHub abgelegt wird. Navigieren Sie ggf. vor ausführen des Befehls an eine andere Stelle im Dateisystem. Im Repositorium enthalten ist die gesamte Versionsgeschichte – d.h. alle Commits – sowie alle nötigen Informationen, um das lokale Repositorium nutzen zu können.
 
 Wollen Sie Ihre eigene OER anlegen, dann nutzen Sie bspw. die Template-Funktion auf GitHub. Diese erstellt ein neues Repositorium mit den Inhalten des `Book_Template` jedoch ohne die Versionsgeschichte des Template-Repositoriums. Dieses neue Repositorium klonen Sie anschließend auf die gleiche Weise – der Befehl bleibt gleich, nur die URL verweist auf Ihr Repositorium.
 
@@ -47,12 +47,12 @@ git clone https://github.com/quadriga-dk/QUADRIGA-OER-Manual
 ```
 
 ### Fetch
-Regelmäßig – insbesondere wenn Sie wissen, dass jemand anderes eine neue Version nach Github hochgeladen hat – sollten Sie `git fetch` nutzen um eine Kopie der Commits auf dem Server herunterzuladen. Ein `git fetch` ändert nichts an dem Commit in dem Sie gerade arbeiten und auch nichts an den Änderungen, die Sie lokal gerade vornehmen.
+Regelmäßig – insbesondere wenn Sie wissen, dass jemand anderes eine neue Version nach GitHub hochgeladen hat – sollten Sie `git fetch` nutzen um eine Kopie der Commits auf dem Server herunterzuladen. Ein `git fetch` ändert nichts an dem Commit in dem Sie gerade arbeiten und auch nichts an den Änderungen, die Sie lokal gerade vornehmen.
 
 Wenn Sie einen anderen Commit auswählen wollen, geht das mit `git checkout`. Das überschreibt ggf. aktive Änderungen, die Sie noch nicht gespeichert – commit-tet – haben (s.u.).
 
 ### Pull
-Wenn Sie auf den gleichen Stand wechseln wollen wie der Server, dann können Sie `git pull` nutzen. Dies geht nur reibungslos, wenn Sie lokal keine Änderungen gemacht haben, die in Konflikt stehen mit Änderungen, die auf dem Server abgelegt waren. Um mit Konflikten umzugehen gibt es den sogenannten Stash, auf welchen hier vorerst nicht eingegangen wird. Sie kannst Konflikte zwischen Commits mit Merge beheben (s.u.) oder über ein sogenannten Rebase.
+Wenn Sie auf den gleichen Stand wechseln wollen wie der Server, dann können Sie `git pull` nutzen. Dies geht nur reibungslos, wenn Sie lokal keine Änderungen gemacht haben, die in Konflikt stehen mit Änderungen, die auf dem Server abgelegt waren. Um mit Konflikten umzugehen gibt es den sogenannten Stash, auf welchen hier vorerst nicht eingegangen wird. Sie können Konflikte zwischen Commits mit Merge beheben (s.u.) oder über ein sogenanntes Rebase.
 
 ### Add
 Während Sie lokal arbeiten ändert sich nicht automatisch der aktuelle Snapshot. Stattdessen merkt sich Git Ihre Änderungen separat – man sagt, die Änderungen sind *unstaged*. Sie können sich über `git status` anzeigen lassen, welche Dateien Sie lokal geändert haben. Mit `git diff` können Sie sich im Detail Ihre inhaltlichen Änderungen anzeigen lassen. Wenn Sie eine der Änderungen für einen Commit vormerken wollen, dann geht das mit `git add` – die Änderungen sind dann *staged*.
@@ -65,7 +65,7 @@ git add entwicklung/git.md
 Über `git status` sehen Sie dann, dass die Inhalte vorgemerkt sind. Sie können vorgemerkte Änderungen auch wieder entfernen – die Änderung bleibt lokal vorhanden – oder Änderungen ganz verwerfen und eine Datei auf den Zustand aus dem aktiven Commit zurücksetzen – hier droht Datenverlust!
 
 ### Commit
-Wenn Sie vorgemerkte Änderungen als Snapshot speichern wollen um diese bspw. auf Github hochzuladen, dann müssen Sie einen Commit erstellen. Dies geht mit `git commit`. Ein Commit beinhaltet alle Ordner und Dateien in einem bestimmten Zustand. Dieser Zustand ist zusammengesetzt aus dem/ vorherigen Commit(s) sowie allen für den Commit vorgemerkten Änderungen. Ein Commit hat dabei einen oder mehrere Vorgänger, wodurch eine Baumstruktur aus Commits entsteht.
+Wenn Sie vorgemerkte Änderungen als Snapshot speichern wollen um diese bspw. auf GitHub hochzuladen, dann müssen Sie einen Commit erstellen. Dies geht mit `git commit`. Ein Commit beinhaltet alle Ordner und Dateien in einem bestimmten Zustand. Dieser Zustand ist zusammengesetzt aus dem vorherigen Commit(s) sowie allen für den Commit vorgemerkten Änderungen. Ein Commit hat dabei einen oder mehrere Vorgänger, wodurch eine Baumstruktur aus Commits entsteht.
 
 Wichtig für die Zusammenarbeit ist auch, dass ein Commit eine *Commit Message* hat, in der Sie kurz festhalten, welche Änderungen im Commit vorgenommen wurden und warum. Hier können Entscheidungsprozesse und Diskussionen dokumentiert werden. Oft werden in Commit Messages auch IDs von Issues vermerkt, in denen bspw. ein Fehler dokumentiert oder ein Feature diskutiert wurde.
 
@@ -80,7 +80,7 @@ Statt eines `git merge` besteht hier auch die Möglichkeit ein Rebase zu nutzen.
 ```
 Wenn Sie einen Commit erstellt haben, ist er vorerst nur lokal vorhanden. Um ihn auf den Server hochzuladen müssen Sie `git push` nutzen – dies lädt den Commit standardmäßig auf den Server mit dem internen Namen *origin* hoch, also auf den Server, von dem Sie geklont haben. Vor diesem Schritt empfiehlt es sich fast immer zuerst ein `git pull` durchzuführen und dann ggf. existierende Konflikte bspw. mit `git merge` zu beheben, bevor Sie mit `git push` Ihre Änderungen tatsächlich auf den Server hochladen.
 
-Ein anderer Weg ist es, Commits in einem Branch zu pushen und dann bspw. über die Github Oberfläche diese Änderungen wieder in den *main*-Branch zu "ziehen". Das ist zu empfehlen, wenn Sie lange und über mehrere Commits an einer Änderung arbeiten, die dann als ganzes in die OER integriert werden soll (s.u.).
+Ein anderer Weg ist es, Commits in einem Branch zu pushen und dann bspw. über die GitHub Oberfläche diese Änderungen wieder in den *main*-Branch zu "ziehen". Das ist zu empfehlen, wenn Sie lange und über mehrere Commits an einer Änderung arbeiten, die dann als ganzes in die OER integriert werden soll (s.u.).
 
 ### Merge
 `git merge` pflegt Änderungen eines Commits bzw. eines Branches in einen anderen Commit/Branch ein und erzeugt dazu einen sogenannten Merge Commit. Funktioniert das nicht automatisch, so müssen Sie alle Konflikte von Hand beheben. (Eine andere Option des Zusammenführens ist hier wieder `git rebase`.)
@@ -90,14 +90,14 @@ Mit einem Branch können Sie einen Commit (bzw. eine Reihe von Commits) benennen
 
 ```{admonition} Übung
 :class: tip
-1. Gehen Sie auf die <a href="https://github.com/quadriga-dk/Book_Template" class="external-link" target="_blank">Github-Seite des OER-Templates (<code>Book_Template</code>)</a>.
+1. Gehen Sie auf die <a href="https://github.com/quadriga-dk/Book_Template" class="external-link" target="_blank">GitHub-Seite des OER-Templates (<code>Book_Template</code>)</a>.
 2. Stellen Sie sicher, dass Sie eingeloggt sind und wählen Sie dann *Fork > Create a new Fork*.
-3. Folgen Sie den Anweisungen um eine spezielle Kopie des `Book_Template` in Ihrem Github-Account zu erstellen, die Fork genannt wird. Ein Fork ist verbunden mit dem sogenannten *Upstream* Repositorium und kann Änderungen aus diesem bei sich wieder Einpflegen und Vorschläge für Änderungen (sog. Pull Requests) anbieten.
+3. Folgen Sie den Anweisungen um eine spezielle Kopie des `Book_Template` in Ihrem GitHub-Account zu erstellen, die Fork genannt wird. Ein Fork ist verbunden mit dem sogenannten *Upstream* Repositorium und kann Änderungen aus diesem bei sich wieder Einpflegen und Vorschläge für Änderungen (sog. Pull Requests) anbieten.
 4. Nutzen Sie nun `git clone` um eine Kopie Ihres Forks auf Ihrer lokalen Festplatte zu erstellen.
 5. Erzeugen Sie einen Branch mit dem Namen `tutorial` und wechseln Sie in diesen.
 6. Erstellen Sie eine Markdown-Datei und schreiben Sie in diese etwas Text.
-7. Fügen die Markdown-Datei dem Inhaltsverzeichnis `_toc.yml` hinzu.
-8. Merken die Änderungen für einen Commit vor und erstellen dann den Commit. Denken Sie an eine passende Commit Message.
+7. Fügen Sie die Markdown-Datei dem Inhaltsverzeichnis `_toc.yml` hinzu.
+8. Merken Sie die Änderungen für einen Commit vor und erstellen Sie dann den Commit. Denken Sie an eine passende Commit Message.
 9. Was passiert, wenn Sie `git push` ausführen?
 10. Wechseln Sie in den Branch `main`.
 11. Mergen Sie die Änderungen aus dem Branch `tutorial` nach `main`.
@@ -105,7 +105,7 @@ Mit einem Branch können Sie einen Commit (bzw. eine Reihe von Commits) benennen
 13. Sehen Sie sich die 5 neuesten Commits in der Versionsgeschichte an mit `git log -5`.
 
 ### Bonus
-14. Aktivieren Sie Github Pages und Github Actions in Ihrem Fork um automatisch das Jupyter Book bauen zu lassen. Dazu muss Ihr Fork öffentlich normalerweise sichtbar sein.
+14. Aktivieren Sie GitHub Pages und GitHub Actions in Ihrem Fork um automatisch das Jupyter Book bauen zu lassen. Dazu muss Ihr Fork öffentlich normalerweise sichtbar sein.
 
 ```
 

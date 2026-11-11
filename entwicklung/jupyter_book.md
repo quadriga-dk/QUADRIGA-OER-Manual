@@ -74,15 +74,15 @@ Wenn Sie lokale Dateien anpassen – bspw. wenn Sie an Ihrem Buch weiterschreibe
 ## Updates der verwendeten Programmbibliotheken
 In der Datei `requirements.txt` werden die jeweils verwendeten Versionen der Programmbibliotheken hinterlegt. Ändert sich die Datei, so sollten Sie Ihre lokale Entwicklungsumgebung aktualisieren.
 
-Stellen Sie dazu zuerst sicher, dass Sie im Virtuellen Environment der OER sind (bspw. mit `conda activate ./conda` im Wurzelverzeichnis der OER). Führen Sie dann den folgenden Befehl aus:
+Stellen Sie dazu zuerst sicher, dass Sie im virtuellen Environment der OER sind (bspw. mit `conda activate ./conda` im Wurzelverzeichnis der OER). Führen Sie dann den folgenden Befehl aus:
 ```sh
 $ pip install -r requirements.txt --upgrade
 ```
 Dieser Befehl installiert ggf. neu benötigte Programmbibliotheken und aktualisiert bereits installierte entsprechend der Versions-Vorgaben in der Datei `requirements.txt`.
 
-## Änderung der OER auf Github
+## Änderung der OER auf GitHub
 
-Kleine Änderungen können auch direkt auf Github durchgeführt werden. Jede Datei hat rechts oben ein Stift-Symbol, wodurch Sie in einen Bearbeitungsmodus gelangen. Ein Speichern ist hier automatisch ein Commit – denken Sie an eine gute Commit Message.
+Kleine Änderungen können auch direkt auf GitHub durchgeführt werden. Jede Datei hat rechts oben ein Stift-Symbol, wodurch Sie in einen Bearbeitungsmodus gelangen. Ein Speichern ist hier automatisch ein Commit – denken Sie an eine gute Commit Message.
 
 
 ## Ressourcen
