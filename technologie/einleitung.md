@@ -31,7 +31,7 @@ Mit Ihren Rückmeldungen können wir diese Anleitung gezielt verbessern.
     year = {2026},
 }
 ```
-Schnaitter, H., Samoilova, E. & Islam, L. (2026). Technologie In _QUADRIGA OERs: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational Resources: Anleitung._ https://quadriga-dk.github.io/QUADRIGA-OER-Manual/
+Schnaitter, H., Samoilova, E. & Islam, L. (2026). Technologie. In _QUADRIGA OERs: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational Resources: Anleitung._ https://quadriga-dk.github.io/QUADRIGA-OER-Manual/
 ````
 `````
 
