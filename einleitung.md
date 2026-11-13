@@ -84,15 +84,17 @@ Diese Schritte sind im Book_Template bereits als Kapitelstruktur angelegt und we
 flowchart TB
     subgraph reihe1[" "]
         direction LR
-        B["Struktur und didaktisches Konzept"] --> C["Technologie"] --> D["Formatierungs- und<br/>Darstellungsmöglichkeiten"]
+        B["Struktur und didaktisches Konzept"] --> C["Technologie"] --> D["Formatierungs- und<br/>Darstellungsmöglichkeiten"] --> x1[" "]
     end
     subgraph reihe2[" "]
         direction LR
-        E["Lernstandskontrolle (Assessment)"] --> F["Reflexion und Resümee"]
+        x2[" "] --> E["Lernstandskontrolle (Assessment)"] --> F["Reflexion und Resümee"]
     end
-    reihe1 --> reihe2
+    reihe1 ~~~ reihe2
     style reihe1 fill:none,stroke:none
     style reihe2 fill:none,stroke:none
+    style x1 fill:none,stroke:none
+    style x2 fill:none,stroke:none
 ```
 
 Die Anleitung selbst ist entlang derselben sechs Schritte gegliedert:
