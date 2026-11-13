@@ -1,4 +1,4 @@
-# QUADRIGA OERs: erstellen und gestalten mit Jupyter Book – QUADRIGA Open Educational Resources: Anleitung
+# QUADRIGA-OER: erstellen und gestalten mit Jupyter Book – QUADRIGA Open Educational Resources: Anleitung
 
 [![DOI](https://zenodo.org/badge/1171691941.svg)](https://doi.org/10.5281/zenodo.18961415)
 

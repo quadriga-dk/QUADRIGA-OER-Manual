@@ -119,17 +119,17 @@ Informiert Lernende über den voraussichtlichen Zeitaufwand für Abschnitte oder
 ```
 ```bibtex
 @incollection{schnaitter_technologie_2026,
-    address = {Potsdam; Berlin},
     title = {Technologie},
-    copyright = {CC-BY-SA 4.0},
-    url = {https://quadriga-dk.github.io/QUADRIGA-OER-Manual/technologie/einführung.html},
-    language = {deu},
-    booktitle = {{QUADRIGA} {OERs}: erstellen und gestalten mit {Jupyter Book}. {QUADRIGA} {Open} {Educational} {Ressources}: {Anleitung}.},
+    booktitle = {{QUADRIGA-OER}: erstellen und gestalten mit {Jupyter Book}. {QUADRIGA} {Open} {Educational} {Resources}: {Anleitung}.},
     author = {Schnaitter, Hannes and Samoilova, Evgenia and Islam, Lamia},
     year = {2026},
+    doi = {10.5281/zenodo.18961415},
+    url = {https://quadriga-dk.github.io/QUADRIGA-OER-Manual/technologie/einleitung.html},
+    language = {deu},
+    copyright = {CC-BY-SA-4.0},
 }
 ```
-Schnaitter, H., Samoilova, E. & Islam, L. (2026). Technologie. In _QUADRIGA OERs: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational Resources: Anleitung._ https://quadriga-dk.github.io/QUADRIGA-OER-Manual/technologie/einführung.html
+Schnaitter, H., Samoilova, E. & Islam, L. (2026). Technologie. In _QUADRIGA-OER: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational Resources: Anleitung._ https://doi.org/10.5281/zenodo.18961415
 
 `````
 ````{admonition} Zitierhinweis
@@ -138,7 +138,7 @@ Schnaitter, H., Samoilova, E. & Islam, L. (2026). Technologie. In _QUADRIGA OERs
 :language: bibtex
 
 ```
-Schnaitter, H., Samoilova, E. & Islam, L. (2026). _QUADRIGA OERs: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational Resources: Anleitung._ https://doi.org/10.5281/zenodo.18961415
+Schnaitter, H., Samoilova, E. & Islam, L. (2026). _QUADRIGA-OER: erstellen und gestalten mit Jupyter Book. QUADRIGA Open Educational Resources: Anleitung._ https://doi.org/10.5281/zenodo.18961415
 ````
 `````
 ``````
