@@ -97,6 +97,8 @@ sphinx:
     mermaid_height: auto
     # The fullscreen button overlays small diagrams; zooming is done in the browser.
     mermaid_fullscreen: false
+    # ELK layout, needed for two-row diagrams (see einleitung.md)
+    mermaid_include_elk: true
     html_static_path: ["_static"]
     html_css_files:
       - quadriga.css

@@ -78,15 +78,21 @@ Diese Schritte sind im Book_Template bereits als Kapitelstruktur angelegt und we
 
 ```{mermaid}
 :align: center
-:caption: Aufbau einer QUADRIGA-OER aus sechs Schritten, wie er im Book_Template angelegt ist.
+:caption: Inhaltliche Kapitel dieser Anleitung in ihrer Reihenfolge.
 
-flowchart LR
-    A["Einstieg"] --> B["Struktur und didaktisches Konzept"]
-    B --> C["Technologie"]
-    C --> D["Formatierungs- und<br/>Darstellungsmöglichkeiten"]
-    D --> E["Lernstandskontrolle (Assessment)"]
-    E --> F["Reflexion und Resümee"]
-    F --> G["Abschluss"]
+%%{init: {"layout": "elk"}}%%
+flowchart TB
+    subgraph reihe1[" "]
+        direction LR
+        B["Struktur und didaktisches Konzept"] --> C["Technologie"] --> D["Formatierungs- und<br/>Darstellungsmöglichkeiten"]
+    end
+    subgraph reihe2[" "]
+        direction LR
+        E["Lernstandskontrolle (Assessment)"] --> F["Reflexion und Resümee"]
+    end
+    reihe1 --> reihe2
+    style reihe1 fill:none,stroke:none
+    style reihe2 fill:none,stroke:none
 ```
 
 Die Anleitung selbst ist entlang derselben sechs Schritte gegliedert:
