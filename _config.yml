@@ -70,7 +70,7 @@ launch_buttons:
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   comments:
-    hypothesis: true
+    hypothesis: false
   use_issues_button: true
   use_repository_button: true
   extra_footer: |
