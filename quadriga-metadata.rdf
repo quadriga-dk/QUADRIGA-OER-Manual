@@ -183,7 +183,7 @@
         <schema:name>Yue Zhang</schema:name>
       </schema:Person>
     </schema:contributor>
-    <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-11</schema:dateModified>
+    <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-11-13</schema:dateModified>
     <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-11</schema:datePublished>
     <schema:description>Diese Anleitung führt in die Erstellung von Open Educational Resources (OER) nach den Empfehlungen und Vorgaben des Datenkompetenzzentrums QUADRIGA als &lt;a href="https://jupyterbook.org"&gt;Jupyter Book&lt;/a&gt; ein. Sie beschreibt die inhaltlichen, didaktischen und technischen Anforderungen. Die Anleitung richtet sich vorrangig an OER-Erstellende. Die zugehörige Vorlage für neue OER ist das separat auf GitHub liegende &lt;a href="https://github.com/quadriga-dk/Book_Template" target="_blank"&gt;Book_Template&lt;/a&gt;; aus ihm werden neue Repositorien erstellt und mit eigenen Inhalten gefüllt. Die Nutzung von QUADRIGA-OERs durch Lernende beschreibt das separate &lt;a href="https://quadriga-dk.github.io/QUADRIGA-Learners-Manual/" target="_blank"&gt;Learners Manual&lt;/a&gt;.</schema:description>
     <schema:funding>Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
@@ -268,7 +268,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:schemaVersion>2.0.0</schema:schemaVersion>
     <schema:timeRequired>PT16H15M</schema:timeRequired>
     <schema:url rdf:resource="https://quadriga-dk.github.io/QUADRIGA-OER-Manual/" />
-    <schema:version>0.1.1</schema:version>
+    <schema:version>1.0.0</schema:version>
     <schema:workExample>
       <schema:SoftwareSourceCode rdf:about="https://quadriga-dk.github.io/QUADRIGA-OER-Manual/#repository">
         <schema:codeRepository rdf:resource="https://github.com/quadriga-dk/QUADRIGA-OER-Manual" />

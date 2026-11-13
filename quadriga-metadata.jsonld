@@ -19,7 +19,7 @@
     "value": "10.5281/zenodo.18961415",
     "url": "https://doi.org/10.5281/zenodo.18961415"
   },
-  "version": "0.1.1",
+  "version": "1.0.0",
   "schemaVersion": "2.0.0",
   "url": "https://quadriga-dk.github.io/QUADRIGA-OER-Manual/",
   "workExample": {
@@ -28,7 +28,7 @@
     "codeRepository": "https://github.com/quadriga-dk/QUADRIGA-OER-Manual"
   },
   "datePublished": "2026-03-11",
-  "dateModified": "2026-03-11",
+  "dateModified": "2026-11-13",
   "author": [
     {
       "@type": "Person",
