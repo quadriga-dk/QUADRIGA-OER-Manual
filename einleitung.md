@@ -76,12 +76,17 @@ Die OER, die Sie mit dem Book_Template erstellen, folgen einem einheitlichen Auf
 
 Diese Schritte sind im Book_Template bereits als Kapitelstruktur angelegt und werden dort mit den Inhalten Ihrer OER gefüllt.
 
-```{figure} ./assets/intro/Aufbau_der_OER.svg
----
-align: left
-width: 100%
----
-Aufbau einer QUADRIGA-OER aus sechs Schritten, wie er im Book_Template angelegt ist.
+```{mermaid}
+:align: center
+:caption: Aufbau einer QUADRIGA-OER aus sechs Schritten, wie er im Book_Template angelegt ist.
+
+flowchart LR
+    A["Einstieg"] --> B["Struktur und didaktisches Konzept"]
+    B --> C["Technologie"]
+    C --> D["Formatierungs- und<br/>Darstellungsmöglichkeiten"]
+    D --> E["Lernstandskontrolle (Assessment)"]
+    E --> F["Reflexion und Resümee"]
+    F --> G["Abschluss"]
 ```
 
 Die Anleitung selbst ist entlang derselben sechs Schritte gegliedert:
