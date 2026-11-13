@@ -4,7 +4,7 @@
 
 Launch the latest version in Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/quadriga-dk/QUADRIGA-OER-Manual/main)
 
-Dieses Repositorium enthält die **Anleitung** für <a href="https://www.quadriga-dk.de" class="external-link" target="_blank">QUADRIGA</a> OERs, die mit <a href="https://jupyterbook.org" target="_blank" class="external-link">Jupyter Book</a> erstellt werden. Die Anleitung erklärt, wie QUADRIGA-OERs aufgebaut sind, welche didaktischen und technischen Konzepte dahinterstehen und wie Sie Inhalte formatieren, prüfen und veröffentlichen.
+Dieses Repositorium enthält die **Anleitung** für <a href="https://www.quadriga-dk.de" class="external-link" target="_blank">QUADRIGA</a> OERs, die mit <a href="https://jupyterbook.org/v1/" target="_blank" class="external-link">Jupyter Book</a> erstellt werden. Die Anleitung erklärt, wie QUADRIGA-OERs aufgebaut sind, welche didaktischen und technischen Konzepte dahinterstehen und wie Sie Inhalte formatieren, prüfen und veröffentlichen.
 
 Die Anleitung ist selbst **kein Template**. Wenn Sie eine eigene OER erstellen möchten, verwenden Sie die Vorlage <a href="https://github.com/quadriga-dk/Book_Template" class="external-link" target="_blank"><code>Book_Template</code></a>.
 

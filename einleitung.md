@@ -29,7 +29,7 @@ Schnaitter, H., Samoilova, E. & Islam, L. (2026). _QUADRIGA-OER: erstellen und g
 ````
 `````
 
-Diese **Anleitung** begleitet Sie bei der Erstellung von Open Educational Resources (OER) im Rahmen des <a href="https://www.quadriga-dk.de/" class="external-link" target="_blank">QUADRIGA-Projekts</a>. Sie beschreibt, wie QUADRIGA-OERs aufgebaut sind, welche didaktischen Empfehlungen gelten und wie Sie die Inhalte mit Markdown, Jupyter Notebooks und <a href="https://jupyterbook.org" class="external-link" target="_blank">Jupyter Book</a> {cite}`executable_books_community_2021_2561065` technisch umsetzen.
+Diese **Anleitung** begleitet Sie bei der Erstellung von Open Educational Resources (OER) im Rahmen des <a href="https://www.quadriga-dk.de/" class="external-link" target="_blank">QUADRIGA-Projekts</a>. Sie beschreibt, wie QUADRIGA-OERs aufgebaut sind, welche didaktischen Empfehlungen gelten und wie Sie die Inhalte mit Markdown, Jupyter Notebooks und <a href="https://jupyterbook.org/v1/" class="external-link" target="_blank">Jupyter Book</a> {cite}`executable_books_community_2021_2561065` technisch umsetzen.
 
 ```{admonition} Anleitung und Vorlage sind getrennt
 :class: hinweis

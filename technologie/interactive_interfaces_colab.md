@@ -41,5 +41,5 @@ Google Colab bietet für die meisten Lernenden den einfachsten Einstieg und wird
 
 ```{admonition} Zusätzliche Materialien
 :class: seealso
-Für detaillierte Informationen zur Konfiguration von Launch-Buttons in Jupyter Book empfehlen wir die offizielle <a href="https://jupyterbook.org/en/stable/interactive/launchbuttons.html" class="external-link" target="_blank">Jupyter Book Dokumentation zu Launch Buttons</a>. Diese enthält wichtige technische Details zur Integration verschiedener interaktiver Plattformen in Ihr eigenes Jupyter Book.
+Für detaillierte Informationen zur Konfiguration von Launch-Buttons in Jupyter Book empfehlen wir die offizielle <a href="https://jupyterbook.org/v1/interactive/launchbuttons.html" class="external-link" target="_blank">Jupyter Book Dokumentation zu Launch Buttons</a>. Diese enthält wichtige technische Details zur Integration verschiedener interaktiver Plattformen in Ihr eigenes Jupyter Book.
 ```
