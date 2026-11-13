@@ -160,7 +160,7 @@ Binder eignet sich besonders gut für pädagogische Jupyter Books, bei denen Sie
 
 ```{admonition} Zusätzliche Materialien
 :class: seealso
-Für detaillierte Informationen zur Konfiguration von Launch-Buttons in Jupyter Book empfehlen wir die offizielle <a href="https://jupyterbook.org/en/stable/interactive/launchbuttons.html" class="external-link" target="_blank">Jupyter Book Dokumentation zu Launch Buttons</a>. 
+Für detaillierte Informationen zur Konfiguration von Launch-Buttons in Jupyter Book empfehlen wir die offizielle <a href="https://jupyterbook.org/v1/interactive/launchbuttons.html" class="external-link" target="_blank">Jupyter Book Dokumentation zu Launch Buttons</a>. 
 
 Für umfassende Informationen zu Binder-Konfigurationen und erweiterten Setup-Optionen konsultieren Sie die <a href="https://mybinder.readthedocs.io/en/latest/" class="external-link" target="_blank">offizielle Binder Dokumentation</a>. Praktische Beispiele und Templates für verschiedene Umgebungen finden Sie in den <a href="https://github.com/binder-examples" class="external-link" target="_blank">Binder Examples Repository</a>.
 

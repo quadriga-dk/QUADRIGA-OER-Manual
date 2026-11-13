@@ -13,7 +13,7 @@ Formatierungsmöglichkeiten um Abbildungen, Admonitions und ähnliches
 umzusetzen. In den nachfolgenden Abschnitten werden grundlegende
 Formatierungshinweise gegeben sowie spezielle Variationen für QUADRIGA-OERs
 vorgestellt. Weitere Hinweise zur Formatierung finden Sie auch im <a
-    href="https://jupyterbook.org/en/stable/reference/cheatsheet.html"
+    href="https://jupyterbook.org/v1/reference/cheatsheet.html"
     class="external-link" target="_blank">MyST syntax cheat sheet</a>.
 
 In den nachfolgenden Kapiteln werden zuerst drei Möglichkeiten der Formatierung
