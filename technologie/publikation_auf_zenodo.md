@@ -72,7 +72,7 @@ Releases in GitHub werden über einen `tag` spezifiziert. Diesen Tag können Sie
 
 Hinweise zur Erstellung von Tags in der GitHub-Releases-Unterseite finden Sie im nächsten Abschnitt.
 
-Die Option, Tags lokal zu erstellen, wird durch Schritte in der GitHub Action `update-metadata.yml` unterstützt und daher zu bevorzugen. Wenn Sie einen Tag erstellen und pushen, dann wird automatisch die Action ausgelöst. Diese passt, falls nötig die Metadaten-Felder `book-version` und `date-of-last-change` an und erstellt bei Änderung einen neuen Commit. Dann wird der Tag auf den neu-erstellten Commit verschoben.
+Die Option, Tags lokal zu erstellen, wird durch Schritte in der GitHub Action `update-metadata.yml` unterstützt und daher zu bevorzugen. Wenn Sie einen Tag erstellen und pushen, dann wird automatisch die Action ausgelöst. Diese passt, falls nötig die Metadaten-Felder `version` und `dateModified` an und erstellt bei Änderung einen neuen Commit. Dann wird der Tag auf den neu-erstellten Commit verschoben.
 
 Schritt für Schritt gehen Sie so vor:
 1. Legen Sie den neuen Tag an. Im Beispiel nutzen wir die Versionsnummer `0.1.2`.
@@ -127,7 +127,7 @@ Beachten Sie bei der Erstellung eines neuen Releases die Hinweise in {numref}`fi
 ````{admonition} Wichtig
 :class: caution
 
-Bevor Sie diese Option zur Erstellung eines Tags nutzen, stellen Sie bitte sicher, dass in der Metadaten-Datei (`metadata.yml`) die Felder `book-version` und `date-of-last-change` korrekt sind. In `book-version` sollte die Version stehen, welche Sie später im Release angeben (ohne das `v` also `book-version: 0.1.2`, wenn Sie beim Release `v0.1.2` als Tag nutzen). Im `date-of-last-change` sollte das aktuelle Datum stehen.
+Bevor Sie diese Option zur Erstellung eines Tags nutzen, stellen Sie bitte sicher, dass in der Metadaten-Datei (`quadriga-metadata.yml`) die Felder `version` und `dateModified` korrekt sind. In `version` sollte die Version stehen, welche Sie später im Release angeben (ohne das `v` also `version: 0.1.2`, wenn Sie beim Release `v0.1.2` als Tag nutzen). Im `dateModified` sollte das aktuelle Datum stehen.
 
 Erstellen Sie ggf. einen neuen Commit mit diesen Änderungen und beginnen Sie dann den Prozess der Erstellung eines Releases erneut.
 
